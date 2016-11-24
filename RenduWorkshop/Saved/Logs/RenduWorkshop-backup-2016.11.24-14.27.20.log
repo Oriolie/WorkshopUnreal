@@ -1,0 +1,1015 @@
+﻿Log file open, 11/24/16 10:01:31
+LogInit:Display: Running engine for game: RenduWorkshop
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-169202277) SRandInit(-169202277).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.068251
+LogPluginManager: Loaded Plugin Paper2D, From C:/UE4/UnrealEngine/Epic Games/4.14/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
+LogPluginManager: Loaded Plugin LightPropagationVolume, From C:/UE4/UnrealEngine/Epic Games/4.14/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
+LogPluginManager: Loaded Plugin BlankPlugin, From C:/UE4/UnrealEngine/Epic Games/4.14/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
+LogPluginManager: Loaded Plugin CodeLiteSourceCodeAccess, From C:/UE4/UnrealEngine/Epic Games/4.14/Engine/Plugins/Developer/CodeLiteSourceCodeAccess/CodeLiteSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin GitSourceControl, From C:/UE4/UnrealEngine/Epic Games/4.14/Engine/Plugins/Developer/GitSourceControl/GitSourceControl.uplugin
+LogPluginManager: Loaded Plugin KDevelopSourceCodeAccess, From C:/UE4/UnrealEngine/Epic Games/4.14/Engine/Plugins/Developer/KDevelopSourceCodeAccess/KDevelopSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin NullSourceCodeAccess, From C:/UE4/UnrealEngine/Epic Games/4.14/Engine/Plugins/Developer/NullSourceCodeAccess/NullSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin OneSkyLocalizationService, From C:/UE4/UnrealEngine/Epic Games/4.14/Engine/Plugins/Developer/OneSkyLocalizationService/OneSkyLocalizationService.uplugin
+LogPluginManager: Loaded Plugin PerforceSourceControl, From C:/UE4/UnrealEngine/Epic Games/4.14/Engine/Plugins/Developer/PerforceSourceControl/PerforceSourceControl.uplugin
+LogPluginManager: Loaded Plugin SubversionSourceControl, From C:/UE4/UnrealEngine/Epic Games/4.14/Engine/Plugins/Developer/SubversionSourceControl/SubversionSourceControl.uplugin
+LogPluginManager: Loaded Plugin UObjectPlugin, From C:/UE4/UnrealEngine/Epic Games/4.14/Engine/Plugins/Developer/UObjectPlugin/UObjectPlugin.uplugin
+LogPluginManager: Loaded Plugin VisualStudioSourceCodeAccess, From C:/UE4/UnrealEngine/Epic Games/4.14/Engine/Plugins/Developer/VisualStudioSourceCodeAccess/VisualStudioSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin XCodeSourceCodeAccess, From C:/UE4/UnrealEngine/Epic Games/4.14/Engine/Plugins/Developer/XCodeSourceCodeAccess/XCodeSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin AudioCapture, From C:/UE4/UnrealEngine/Epic Games/4.14/Engine/Plugins/Editor/AudioCapture/AudioCapture.uplugin
+LogPluginManager: Loaded Plugin EpicSurvey, From C:/UE4/UnrealEngine/Epic Games/4.14/Engine/Plugins/Editor/EpicSurvey/EpicSurvey.uplugin
+LogPluginManager: Loaded Plugin MacGraphicsSwitching, From C:/UE4/UnrealEngine/Epic Games/4.14/Engine/Plugins/Editor/MacGraphicsSwitching/MacGraphicsSwitching.uplugin
+LogPluginManager: Loaded Plugin MobileLauncherProfileWizard, From C:/UE4/UnrealEngine/Epic Games/4.14/Engine/Plugins/Editor/MobileLauncherProfileWizard/MobileLauncherProfileWizard.uplugin
+LogPluginManager: Loaded Plugin PluginBrowser, From C:/UE4/UnrealEngine/Epic Games/4.14/Engine/Plugins/Editor/PluginBrowser/PluginBrowser.uplugin
+LogPluginManager: Loaded Plugin SpeedTreeImporter, From C:/UE4/UnrealEngine/Epic Games/4.14/Engine/Plugins/Editor/SpeedTreeImporter/SpeedTreeImporter.uplugin
+LogPluginManager: Loaded Plugin SuperSearchEditor, From C:/UE4/UnrealEngine/Epic Games/4.14/Engine/Plugins/Editor/SuperSearchEditor/SuperSearchEditor.uplugin
+LogPluginManager: Loaded Plugin AlembicImporter, From C:/UE4/UnrealEngine/Epic Games/4.14/Engine/Plugins/Experimental/AlembicImporter/AlembicImporter.uplugin
+LogPluginManager: Loaded Plugin BlueprintStats, From C:/UE4/UnrealEngine/Epic Games/4.14/Engine/Plugins/Experimental/BlueprintStats/BlueprintStats.uplugin
+LogPluginManager: Loaded Plugin CharacterAI, From C:/UE4/UnrealEngine/Epic Games/4.14/Engine/Plugins/Experimental/CharacterAI/CharacterAI.uplugin
+LogPluginManager: Loaded Plugin CodeEditor, From C:/UE4/UnrealEngine/Epic Games/4.14/Engine/Plugins/Experimental/CodeEditor/CodeEditor.uplugin
+LogPluginManager: Loaded Plugin CodeView, From C:/UE4/UnrealEngine/Epic Games/4.14/Engine/Plugins/Experimental/CodeView/CodeView.uplugin
+LogPluginManager: Loaded Plugin HTML5Networking, From C:/UE4/UnrealEngine/Epic Games/4.14/Engine/Plugins/Experimental/HTML5Networking/HTML5Networking.uplugin
+LogPluginManager: Loaded Plugin OSVR, From C:/UE4/UnrealEngine/Epic Games/4.14/Engine/Plugins/Experimental/OSVR/OSVR.uplugin
+LogPluginManager: Loaded Plugin Phya, From C:/UE4/UnrealEngine/Epic Games/4.14/Engine/Plugins/Experimental/Phya/Phya.uplugin
+LogPluginManager: Loaded Plugin SignificanceManager, From C:/UE4/UnrealEngine/Epic Games/4.14/Engine/Plugins/Experimental/SignificanceManager/SignificanceManager.uplugin
+LogPluginManager: Loaded Plugin SimpleHMD, From C:/UE4/UnrealEngine/Epic Games/4.14/Engine/Plugins/Experimental/SimpleHMD/SimpleHMD.uplugin
+LogPluginManager: Loaded Plugin StereoPanorama, From C:/UE4/UnrealEngine/Epic Games/4.14/Engine/Plugins/Experimental/StereoPanorama/StereoPanorama.uplugin
+LogPluginManager: Loaded Plugin StructBox, From C:/UE4/UnrealEngine/Epic Games/4.14/Engine/Plugins/Experimental/StructBox/StructBox.uplugin
+LogPluginManager: Loaded Plugin AndroidMedia, From C:/UE4/UnrealEngine/Epic Games/4.14/Engine/Plugins/Media/AndroidMedia/AndroidMedia.uplugin
+LogPluginManager: Loaded Plugin AvfMedia, From C:/UE4/UnrealEngine/Epic Games/4.14/Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin
+LogPluginManager: Loaded Plugin MediaPlayerEditor, From C:/UE4/UnrealEngine/Epic Games/4.14/Engine/Plugins/Media/MediaPlayerEditor/MediaPlayerEditor.uplugin
+LogPluginManager: Loaded Plugin WmfMedia, From C:/UE4/UnrealEngine/Epic Games/4.14/Engine/Plugins/Media/WmfMedia/WmfMedia.uplugin
+LogPluginManager: Loaded Plugin MessagingDebugger, From C:/UE4/UnrealEngine/Epic Games/4.14/Engine/Plugins/Messaging/MessagingDebugger/MessagingDebugger.uplugin
+LogPluginManager: Loaded Plugin TcpMessaging, From C:/UE4/UnrealEngine/Epic Games/4.14/Engine/Plugins/Messaging/TcpMessaging/TcpMessaging.uplugin
+LogPluginManager: Loaded Plugin UdpMessaging, From C:/UE4/UnrealEngine/Epic Games/4.14/Engine/Plugins/Messaging/UdpMessaging/UdpMessaging.uplugin
+LogPluginManager: Loaded Plugin LevelSequenceEditor, From C:/UE4/UnrealEngine/Epic Games/4.14/Engine/Plugins/MovieScene/LevelSequenceEditor/LevelSequenceEditor.uplugin
+LogPluginManager: Loaded Plugin MatineeToLevelSequence, From C:/UE4/UnrealEngine/Epic Games/4.14/Engine/Plugins/MovieScene/MatineeToLevelSequence/MatineeToLevelSequence.uplugin
+LogPluginManager: Loaded Plugin NetcodeUnitTest, From C:/UE4/UnrealEngine/Epic Games/4.14/Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/NetcodeUnitTest.uplugin
+LogPluginManager: Loaded Plugin NUTUnrealEngine4, From C:/UE4/UnrealEngine/Epic Games/4.14/Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/NUTUnrealEngine4.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGameCircle, From C:/UE4/UnrealEngine/Epic Games/4.14/Engine/Plugins/Online/Android/OnlineSubsystemGameCircle/OnlineSubsystemGameCircle.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGooglePlay, From C:/UE4/UnrealEngine/Epic Games/4.14/Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/OnlineSubsystemGooglePlay.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemIOS, From C:/UE4/UnrealEngine/Epic Games/4.14/Engine/Plugins/Online/IOS/OnlineSubsystemIOS/OnlineSubsystemIOS.uplugin
+LogPluginManager: Loaded Plugin OnlineFramework, From C:/UE4/UnrealEngine/Epic Games/4.14/Engine/Plugins/Online/OnlineFramework/OnlineFramework.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystem, From C:/UE4/UnrealEngine/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystem/OnlineSubsystem.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemAmazon, From C:/UE4/UnrealEngine/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemAmazon/OnlineSubsystemAmazon.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemFacebook, From C:/UE4/UnrealEngine/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemFacebook/OnlineSubsystemFacebook.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemNull, From C:/UE4/UnrealEngine/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemNull/OnlineSubsystemNull.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemOculus, From C:/UE4/UnrealEngine/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemOculus/OnlineSubsystemOculus.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemSteam, From C:/UE4/UnrealEngine/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemSteam/OnlineSubsystemSteam.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemUtils, From C:/UE4/UnrealEngine/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemUtils/OnlineSubsystemUtils.uplugin
+LogPluginManager: Loaded Plugin IOSTapJoy, From C:/UE4/UnrealEngine/Epic Games/4.14/Engine/Plugins/Runtime/Advertising/IOSTapJoy/IOSTapJoy.uplugin
+LogPluginManager: Loaded Plugin AnalyticsBlueprintLibrary, From C:/UE4/UnrealEngine/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/AnalyticsBlueprintLibrary.uplugin
+LogPluginManager: Loaded Plugin AnalyticsMulticast, From C:/UE4/UnrealEngine/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/AnalyticsMulticast/AnalyticsMulticast.uplugin
+LogPluginManager: Loaded Plugin Apsalar, From C:/UE4/UnrealEngine/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/Apsalar/Apsalar.uplugin
+LogPluginManager: Loaded Plugin FileLogging, From C:/UE4/UnrealEngine/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/FileLogging/FileLogging.uplugin
+LogPluginManager: Loaded Plugin Flurry, From C:/UE4/UnrealEngine/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/Flurry/Flurry.uplugin
+LogPluginManager: Loaded Plugin AndroidDeviceProfileSelector, From C:/UE4/UnrealEngine/Epic Games/4.14/Engine/Plugins/Runtime/AndroidDeviceProfileSelector/AndroidDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin AndroidMoviePlayer, From C:/UE4/UnrealEngine/Epic Games/4.14/Engine/Plugins/Runtime/AndroidMoviePlayer/AndroidMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin AppleMoviePlayer, From C:/UE4/UnrealEngine/Epic Games/4.14/Engine/Plugins/Runtime/AppleMoviePlayer/AppleMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ArchVisCharacter, From C:/UE4/UnrealEngine/Epic Games/4.14/Engine/Plugins/Runtime/ArchVisCharacter/ArchVisCharacter.uplugin
+LogPluginManager: Loaded Plugin CableComponent, From C:/UE4/UnrealEngine/Epic Games/4.14/Engine/Plugins/Runtime/CableComponent/CableComponent.uplugin
+LogPluginManager: Loaded Plugin CustomMeshComponent, From C:/UE4/UnrealEngine/Epic Games/4.14/Engine/Plugins/Runtime/CustomMeshComponent/CustomMeshComponent.uplugin
+LogPluginManager: Loaded Plugin ExampleDeviceProfileSelector, From C:/UE4/UnrealEngine/Epic Games/4.14/Engine/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin GearVR, From C:/UE4/UnrealEngine/Epic Games/4.14/Engine/Plugins/Runtime/GearVR/GearVR.uplugin
+LogPluginManager: Loaded Plugin GoogleVRController, From C:/UE4/UnrealEngine/Epic Games/4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRController/GoogleVRController.uplugin
+LogPluginManager: Loaded Plugin GoogleVRHMD, From C:/UE4/UnrealEngine/Epic Games/4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRHMD/GoogleVRHMD.uplugin
+LogPluginManager: Loaded Plugin IOSDeviceProfileSelector, From C:/UE4/UnrealEngine/Epic Games/4.14/Engine/Plugins/Runtime/IOSDeviceProfileSelector/IOSDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LeapMotion, From C:/UE4/UnrealEngine/Epic Games/4.14/Engine/Plugins/Runtime/LeapMotion/LeapMotion.uplugin
+LogPluginManager: Loaded Plugin LinuxDeviceProfileSelector, From C:/UE4/UnrealEngine/Epic Games/4.14/Engine/Plugins/Runtime/LinuxDeviceProfileSelector/LinuxDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin MIDIDevice, From C:/UE4/UnrealEngine/Epic Games/4.14/Engine/Plugins/Runtime/MIDIDevice/MIDIDevice.uplugin
+LogPluginManager: Loaded Plugin MobilePatchingUtils, From C:/UE4/UnrealEngine/Epic Games/4.14/Engine/Plugins/Runtime/MobilePatchingUtils/MobilePatchingUtils.uplugin
+LogPluginManager: Loaded Plugin Ansel, From C:/UE4/UnrealEngine/Epic Games/4.14/Engine/Plugins/Runtime/Nvidia/Ansel/Ansel.uplugin
+LogPluginManager: Loaded Plugin OculusAudio, From C:/UE4/UnrealEngine/Epic Games/4.14/Engine/Plugins/Runtime/OculusAudio/OculusAudio.uplugin
+LogPluginManager: Loaded Plugin OculusInput, From C:/UE4/UnrealEngine/Epic Games/4.14/Engine/Plugins/Runtime/OculusInput/OculusInput.uplugin
+LogPluginManager: Loaded Plugin OculusLibrary, From C:/UE4/UnrealEngine/Epic Games/4.14/Engine/Plugins/Runtime/OculusLibrary/OculusLibrary.uplugin
+LogPluginManager: Loaded Plugin OculusRift, From C:/UE4/UnrealEngine/Epic Games/4.14/Engine/Plugins/Runtime/OculusRift/OculusRift.uplugin
+LogPluginManager: Loaded Plugin Oodle, From C:/UE4/UnrealEngine/Epic Games/4.14/Engine/Plugins/Runtime/PacketHandlers/CompressionComponents/Oodle/Oodle.uplugin
+LogPluginManager: Loaded Plugin ProceduralMeshComponent, From C:/UE4/UnrealEngine/Epic Games/4.14/Engine/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin
+LogPluginManager: Loaded Plugin SoundMod, From C:/UE4/UnrealEngine/Epic Games/4.14/Engine/Plugins/Runtime/SoundMod/SoundMod.uplugin
+LogPluginManager: Loaded Plugin SoundVisualizations, From C:/UE4/UnrealEngine/Epic Games/4.14/Engine/Plugins/Runtime/SoundVisualizations/SoundVisualizations.uplugin
+LogPluginManager: Loaded Plugin SteamController, From C:/UE4/UnrealEngine/Epic Games/4.14/Engine/Plugins/Runtime/Steam/SteamController/SteamController.uplugin
+LogPluginManager: Loaded Plugin SteamVR, From C:/UE4/UnrealEngine/Epic Games/4.14/Engine/Plugins/Runtime/Steam/SteamVR/SteamVR.uplugin
+LogPluginManager: Loaded Plugin WebBrowserWidget, From C:/UE4/UnrealEngine/Epic Games/4.14/Engine/Plugins/Runtime/WebBrowserWidget/WebBrowserWidget.uplugin
+LogPluginManager: Loaded Plugin WindowsDeviceProfileSelector, From C:/UE4/UnrealEngine/Epic Games/4.14/Engine/Plugins/Runtime/WindowsDeviceProfileSelector/WindowsDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin WindowsMoviePlayer, From C:/UE4/UnrealEngine/Epic Games/4.14/Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ScriptPlugin, From C:/UE4/UnrealEngine/Epic Games/4.14/Engine/Plugins/ScriptPlugin/ScriptPlugin.uplugin
+LogPluginManager: Loaded Plugin SlateRemote, From C:/UE4/UnrealEngine/Epic Games/4.14/Engine/Plugins/Slate/SlateRemote/SlateRemote.uplugin
+LogPluginManager: Loaded Plugin EditorTests, From C:/UE4/UnrealEngine/Epic Games/4.14/Engine/Plugins/Tests/EditorTests/EditorTests.uplugin
+LogPluginManager: Loaded Plugin FbxAutomationTestBuilder, From C:/UE4/UnrealEngine/Epic Games/4.14/Engine/Plugins/Tests/FbxAutomationTestBuilder/FbxAutomationTestBuilder.uplugin
+LogPluginManager: Loaded Plugin FunctionalTestingEditor, From C:/UE4/UnrealEngine/Epic Games/4.14/Engine/Plugins/Tests/FunctionalTestingEditor/FunctionalTestingEditor.uplugin
+LogPluginManager: Loaded Plugin RuntimeTests, From C:/UE4/UnrealEngine/Epic Games/4.14/Engine/Plugins/Tests/RuntimeTests/RuntimeTests.uplugin
+LogPluginManager: Loaded Plugin ScreenshotTools, From C:/UE4/UnrealEngine/Epic Games/4.14/Engine/Plugins/Tests/ScreenshotTools/ScreenshotTools.uplugin
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.14-CL-3195953
+LogInit: Engine Version: 4.14.0-3195953+++UE4+Release-4.14
+LogInit: Compatible Engine Version: 4.14.0-3195953+++UE4+Release-4.14
+LogInit: Net CL: 3195953
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 7
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 8
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 17
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 1
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Nov 12 2016 02:14:10
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.14
+LogInit: Command line:  
+LogInit: Base directory: C:/UE4/UnrealEngine/Epic Games/4.14/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.11.24-09.01.31:266][  0]LogInit: Selected Device Profile: [Windows]
+[2016.11.24-09.01.31:266][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.11.24-09.01.31:276][  0]LogInit: Computer: K003-0080
+[2016.11.24-09.01.31:276][  0]LogInit: User: ilallemand
+[2016.11.24-09.01.31:276][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.11.24-09.01.31:276][  0]LogInit: High frequency timer resolution =3.903988 MHz
+[2016.11.24-09.01.31:276][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.11.24-09.01.31:276][  0]LogMemory: Platform Memory Stats for Windows
+[2016.11.24-09.01.31:276][  0]LogMemory: Process Physical Memory: 261.84 MB used, 261.84 MB peak
+[2016.11.24-09.01.31:276][  0]LogMemory: Process Virtual Memory: 262.45 MB used, 262.45 MB peak
+[2016.11.24-09.01.31:276][  0]LogMemory: Physical Memory: 3692.50 MB used,  12633.24 MB free, 16325.74 MB total
+[2016.11.24-09.01.31:276][  0]LogMemory: Virtual Memory: 661.68 MB used,  12633.24 MB free, 134217728.00 MB total
+[2016.11.24-09.01.31:297][  0]LogTextLocalizationManager: No translations for ('fr-FR') exist, falling back to 'en' for localization and internationalization data.
+[2016.11.24-09.01.31:762][  0]LogD3D11RHI: D3D11 adapters:
+[2016.11.24-09.01.31:780][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960' (Feature Level 11_0)
+[2016.11.24-09.01.31:780][  0]LogD3D11RHI:       1965/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2016.11.24-09.01.31:780][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.11.24-09.01.31:780][  0]LogD3D11RHI:       0/0/256 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2016.11.24-09.01.31:780][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.11.24-09.01.31:783][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.11.24-09.01.31:783][  0]LogD3D11RHI:     GPU DeviceId: 0x1401 (for the marketing name, search the web for "GPU Device Id")
+[2016.11.24-09.01.31:783][  0]LogWindows: EnumDisplayDevices:
+[2016.11.24-09.01.31:783][  0]LogWindows:    0. 'NVIDIA GeForce GTX 960' (P:1 D:1)
+[2016.11.24-09.01.31:783][  0]LogWindows:    1. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2016.11.24-09.01.31:783][  0]LogWindows:    2. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2016.11.24-09.01.31:783][  0]LogWindows:    3. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2016.11.24-09.01.31:783][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2016.11.24-09.01.31:783][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960
+[2016.11.24-09.01.31:783][  0]LogD3D11RHI:   Driver Version: 368.69 (internal:10.18.13.6869, unified:368.69)
+[2016.11.24-09.01.31:784][  0]LogD3D11RHI:      Driver Date: 6-29-2016
+[2016.11.24-09.01.31:784][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.11.24-09.01.31:791][  0]LogD3D11RHI: Async texture creation enabled
+[2016.11.24-09.01.31:806][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2016.11.24-09.01.31:806][  0]LogShaderCompilers: Guid format shader working directory is -27 characters bigger than the processId version (../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Intermediate/Shaders/WorkingDirectory/6544/).
+[2016.11.24-09.01.31:806][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/i.lallemand/AppData/Local/Temp/UnrealShaderWorkingDir/5E65DB614591B36C6911B8864271CFF8/'.
+[2016.11.24-09.01.31:806][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.11.24-09.01.32:597][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.11.24-09.01.32:632][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2016.11.24-09.01.32:667][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2016.11.24-09.01.32:702][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2016.11.24-09.01.32:737][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2016.11.24-09.01.32:771][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.11.24-09.01.32:807][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.11.24-09.01.32:843][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.11.24-09.01.32:870][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.11.24-09.01.32:906][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.11.24-09.01.32:940][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.11.24-09.01.32:974][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.11.24-09.01.33:009][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.11.24-09.01.33:043][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.11.24-09.01.33:078][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.11.24-09.01.33:147][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.11.24-09.01.33:147][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.11.24-09.01.33:169][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.11.24-09.01.33:227][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.11.24-09.01.33:250][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.11.24-09.01.33:284][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2016.11.24-09.01.33:318][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.11.24-09.01.33:352][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.11.24-09.01.33:387][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.11.24-09.01.33:387][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.11.24-09.01.33:624][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.11.24-09.01.33:664][  0]LogDerivedDataCache: Loaded boot cache 0.04s 50MB C:/Users/i.lallemand/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2016.11.24-09.01.33:664][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/i.lallemand/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc
+[2016.11.24-09.01.33:664][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.11.24-09.01.33:664][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.11.24-09.01.33:664][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.11.24-09.01.33:664][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.11.24-09.01.33:677][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.11.24-09.01.33:689][  0]LogDerivedDataCache: Using Local data cache path C:/Users/i.lallemand/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.11.24-09.01.33:833][  0]LogInit: Selected Device Profile: [Windows]
+[2016.11.24-09.01.33:835][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.11.24-09.01.33:972][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2016.11.24-09.01.33:998][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2016.11.24-09.01.34:025][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2016.11.24-09.01.34:025][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2016.11.24-09.01.34:025][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.11.24-09.01.34:377][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: renduworkshop, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 3107483387
+[2016.11.24-09.01.34:423][  0]LogAssetRegistry: FAssetRegistry took 0.0218 seconds to start up
+[2016.11.24-09.01.34:450][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 1 prioritized culture(s) in 0.010611 seconds
+[2016.11.24-09.01.34:454][  0]LogUObjectArray: 31946 objects as part of root set at end of initial load.
+[2016.11.24-09.01.34:454][  0]LogUObjectAllocator: 6935840 out of 0 bytes used by permanent object pool.
+[2016.11.24-09.01.34:454][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.11.24-09.01.34:492][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.11.24-09.01.34:933][  0]LogSlate: Using Freetype 2.6.0
+[2016.11.24-09.01.34:934][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.11.24-09.01.34:934][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.11.24-09.01.35:561][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2016.11.24-09.01.35:587][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.11.24-09.01.35:800][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2016.11.24-09.01.36:033][  0]SourceControl: Info Source control is disabled
+[2016.11.24-09.01.36:034][  0]SourceControl: Info Source control is disabled
+[2016.11.24-09.01.36:061][  0]SourceControl: Info Source control is disabled
+[2016.11.24-09.01.36:088][  0]SourceControl: Info Source control is disabled
+[2016.11.24-09.01.36:842][  0]LogEngine: Initializing Engine...
+[2016.11.24-09.01.36:842][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2016.11.24-09.01.36:999][  0]LogAIModule: Creating AISystem for world Untitled
+[2016.11.24-09.01.37:004][  0]LogInit: XAudio2 using 'Audio numérique (SPDIF) (Périphérique High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.11.24-09.01.37:013][  0]LogInit: FAudioDevice initialized.
+[2016.11.24-09.01.37:033][  0]LogDerivedDataCache: Saved boot cache 0.02s 50MB C:/Users/i.lallemand/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2016.11.24-09.01.37:041][  0]LogInit: Texture streaming: Enabled
+[2016.11.24-09.01.37:150][  0]LogInit: Transaction tracking system initialized
+[2016.11.24-09.01.37:350][  0]BlueprintLog: New page: Editor Load
+[2016.11.24-09.01.37:866][  0]LocalizationService: Info Localization service is disabled
+[2016.11.24-09.01.38:251][  0]LogConsoleResponse:Display: 
+[2016.11.24-09.01.38:360][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2016.11.24-09.01.38:360][  0]LogCook:Display: Mobile HDR setting 1
+[2016.11.24-09.01.38:920][  0]LogFileCache: Scanning file cache for directory 'C:/Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/' took 0.01s
+[2016.11.24-09.01.38:920][  0]SourceControl: Info Source control is disabled
+[2016.11.24-09.01.38:920][  0]Cmd: MAP LOAD FILE="../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.11.24-09.01.38:921][  0]LightingResults: New page: Lighting Build
+[2016.11.24-09.01.38:945][  0]MapCheck: New page: Map Check
+[2016.11.24-09.01.38:945][  0]LightingResults: New page: Lighting Build
+[2016.11.24-09.01.39:310][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.11.24-09.01.39:318][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.11.24-09.01.39:319][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.11.24-09.01.39:351][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 32.214ms to complete.
+[2016.11.24-09.01.39:351][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.431
+[2016.11.24-09.01.39:459][  0]LogCollectionManager: Loaded 0 collections in 0.001043 seconds
+[2016.11.24-09.01.39:519][  0]LogFileCache: Scanning file cache for directory 'C:/Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Saved/Collections/' took 0.01s
+[2016.11.24-09.01.39:519][  0]LogFileCache: Scanning file cache for directory 'C:/Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/Developers/ilallemand/Collections/' took 0.01s
+[2016.11.24-09.01.39:519][  0]LogFileCache: Scanning file cache for directory 'C:/Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/Collections/' took 0.01s
+[2016.11.24-09.01.39:519][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2016.11.24-09.01.39:526][  0]LogContentBrowser: Native class hierarchy populated in 0.0067 seconds. Added 2190 classes and 428 folders.
+[2016.11.24-09.01.39:550][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.11.24-09.01.39:550][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.11.24-09.01.39:551][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0005 seconds. Added 13 classes and 0 folders.
+[2016.11.24-09.01.39:591][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.11.24-09.01.39:615][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.11.24-09.01.39:641][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2016.11.24-09.01.39:667][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.11.24-09.01.39:733][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2016.11.24-09.01.39:733][  0]LogLoad: (Engine Initialization) Total time: 9.51 seconds
+[2016.11.24-09.01.39:733][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.12 seconds
+[2016.11.24-09.01.39:733][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2016.11.24-09.01.39:733][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2016.11.24-09.01.40:073][  0]LogOcInput: OculusInput pre-init called
+[2016.11.24-09.01.40:087][  0]LogAssetRegistry: Asset discovery search completed in 5.6870 seconds
+[2016.11.24-09.01.40:087][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.11.24-09.01.40:087][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000011 seconds (updated 0 objects)
+[2016.11.24-09.01.40:090][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.11.24-09.01.40:241][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:2).
+[2016.11.24-09.04.24:389][187]LogMaterial: Missing cached shader map for material GreyLevel_Parent, compiling. 
+[2016.11.24-09.04.24:546][187]LogMaterial: Missing cached shader map for material GreyLevel_Parent, compiling. 
+[2016.11.24-09.04.25:225][187]LogMaterial: Missing cached shader map for material GreyLevel_Parent, compiling. 
+[2016.11.24-09.04.25:234][187]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.11.24-09.04.29:039][427]MaterialEditorStats: Info Base pass shader with static lighting: 54 instructions
+[2016.11.24-09.04.29:039][427]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 28 instructions
+[2016.11.24-09.04.29:039][427]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.11.24-09.04.29:039][427]MaterialEditorStats: Info Texture samplers: 2/16
+[2016.11.24-09.04.48:243][659]LogAIModule: Creating AISystem for world 20161125_LALLEMAND_map
+[2016.11.24-09.04.51:162][993]LogSavePackage: Save=8.00ms
+[2016.11.24-09.04.51:162][993]LogSavePackage: Moving '../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Saved/20161125_LALLEMAND_mapD870027347D12A431181AA8A5629C6B9.tmp' to '../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/20161125_LALLEMAND_map.umap'
+[2016.11.24-09.04.51:163][993]LogSavePackage:Display: Finished SavePackage ../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/20161125_LALLEMAND_map.umap
+[2016.11.24-09.04.51:165][993]LogFileHelpers: Saving map '20161125_LALLEMAND_map' took 0.060
+[2016.11.24-09.04.54:148][339]Cmd: MAP LOAD FILE="../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/20161125_LALLEMAND_map.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.11.24-09.04.54:149][339]LightingResults: New page: Lighting Build
+[2016.11.24-09.04.54:149][339]LoadErrors: New page: Loading map: 20161125_LALLEMAND_map.umap
+[2016.11.24-09.04.54:154][339]MapCheck: New page: Map Check
+[2016.11.24-09.04.54:154][339]LightingResults: New page: Lighting Build
+[2016.11.24-09.04.54:164][339]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.11.24-09.04.54:180][339]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.11.24-09.04.54:213][339]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 32.568ms to complete.
+[2016.11.24-09.04.54:214][339]LogFileHelpers: Loading map '20161125_LALLEMAND_map' took 0.066
+[2016.11.24-09.05.01:990][264]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.11.24-09.05.02:018][264]Cmd: MAP LOAD FILE="../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.11.24-09.05.02:018][264]LightingResults: New page: Lighting Build
+[2016.11.24-09.05.02:019][264]LoadErrors: New page: Loading map: FirstPersonExampleMap.umap
+[2016.11.24-09.05.02:019][264]MapCheck: New page: Map Check
+[2016.11.24-09.05.02:019][264]LightingResults: New page: Lighting Build
+[2016.11.24-09.05.02:041][264]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.11.24-09.05.02:057][264]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.11.24-09.05.02:089][264]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 32.115ms to complete.
+[2016.11.24-09.05.02:089][264]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.072
+[2016.11.24-09.05.24:332][923]LogAIModule: Creating AISystem for world 20161125_LALLEMAND_map
+[2016.11.24-09.05.24:341][923]Cmd: MAP LOAD FILE="../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/20161125_LALLEMAND_map.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.11.24-09.05.24:341][923]LightingResults: New page: Lighting Build
+[2016.11.24-09.05.24:342][923]LoadErrors: New page: Loading map: 20161125_LALLEMAND_map.umap
+[2016.11.24-09.05.24:342][923]MapCheck: New page: Map Check
+[2016.11.24-09.05.24:342][923]LightingResults: New page: Lighting Build
+[2016.11.24-09.05.24:352][923]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.11.24-09.05.24:368][923]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.11.24-09.05.24:401][923]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 32.571ms to complete.
+[2016.11.24-09.05.24:401][923]LogFileHelpers: Loading map '20161125_LALLEMAND_map' took 0.061
+[2016.11.24-09.05.36:796][399]LogActorFactory: Actor Factory created Skybox
+[2016.11.24-09.05.37:437][471]LogActorFactory: Actor Factory created Skybox
+[2016.11.24-09.05.49:188][828]LogLinker:Warning: Can't find file '/Game/StarterContent/GreyLevels/GreyLevel_Parent'
+[2016.11.24-09.05.49:188][828]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/GreyLevels/GreyLevel_Parent' while loading ../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Emissive/Emissive_8.uasset.
+[2016.11.24-09.05.49:198][828]LoadErrors:Error: Error /Game/GreyLevels/Emissive/Emissive_8 : Can't find file for asset. /Game/StarterContent/GreyLevels/GreyLevel_Parent
+[2016.11.24-09.05.49:199][828]LogLinker:Warning: Can't find file '/Game/StarterContent/GreyLevels/GreyLevel_Parent'
+[2016.11.24-09.05.49:199][828]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/GreyLevels/GreyLevel_Parent' while loading ../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Emissive/Emissive_8.uasset.
+[2016.11.24-09.05.49:199][828]LogLinker:Warning: Can't find file '/Game/StarterContent/GreyLevels/GreyLevel_Parent'
+[2016.11.24-09.05.49:199][828]LoadErrors: Info Failed to load /Game/StarterContent/GreyLevels/GreyLevel_Parent.GreyLevel_Parent Referenced by Emissive_8
+[2016.11.24-09.05.49:200][828]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/GreyLevels/GreyLevel_Parent' while loading NULL.
+[2016.11.24-09.05.55:885][604]LogActorFactory: Actor Factory created Cube
+[2016.11.24-09.05.57:330][774]LogActorFactory: Actor Factory created Cube
+[2016.11.24-09.06.01:000][209]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Skybox)
+[2016.11.24-09.06.04:453][598]LogSavePackage: Save=133.30ms
+[2016.11.24-09.06.04:453][598]LogSavePackage: Moving '../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Saved/20161125_LALLEMAND_mapE5C48F5F4F0743E855143A81759EEDF7.tmp' to '../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/20161125_LALLEMAND_map.umap'
+[2016.11.24-09.06.04:459][598]LogSavePackage:Display: Finished SavePackage ../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/20161125_LALLEMAND_map.umap
+[2016.11.24-09.06.52:470][786]LogLinker:Warning: Can't find file '/Game/StarterContent/GreyLevels/GreyLevel_Parent'
+[2016.11.24-09.06.52:470][786]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/GreyLevels/GreyLevel_Parent' while loading ../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Emissive/Emissive_1.uasset.
+[2016.11.24-09.06.52:470][786]LoadErrors:Error: Error /Game/GreyLevels/Emissive/Emissive_1 : Can't find file for asset. /Game/StarterContent/GreyLevels/GreyLevel_Parent
+[2016.11.24-09.06.52:470][786]LogLinker:Warning: Can't find file '/Game/StarterContent/GreyLevels/GreyLevel_Parent'
+[2016.11.24-09.06.52:470][786]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/GreyLevels/GreyLevel_Parent' while loading ../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Emissive/Emissive_1.uasset.
+[2016.11.24-09.06.52:470][786]LogLinker:Warning: Can't find file '/Game/StarterContent/GreyLevels/GreyLevel_Parent'
+[2016.11.24-09.06.52:470][786]LoadErrors: Info Failed to load /Game/StarterContent/GreyLevels/GreyLevel_Parent.GreyLevel_Parent Referenced by Emissive_1
+[2016.11.24-09.06.52:470][786]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/GreyLevels/GreyLevel_Parent' while loading NULL.
+[2016.11.24-09.06.52:471][786]LogLinker:Warning: Can't find file '/Game/StarterContent/GreyLevels/GreyLevel_Parent'
+[2016.11.24-09.06.52:471][786]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/GreyLevels/GreyLevel_Parent' while loading ../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Emissive/Emissive_2.uasset.
+[2016.11.24-09.06.52:471][786]LoadErrors:Error: Error /Game/GreyLevels/Emissive/Emissive_2 : Can't find file for asset. /Game/StarterContent/GreyLevels/GreyLevel_Parent
+[2016.11.24-09.06.52:471][786]LogLinker:Warning: Can't find file '/Game/StarterContent/GreyLevels/GreyLevel_Parent'
+[2016.11.24-09.06.52:471][786]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/GreyLevels/GreyLevel_Parent' while loading ../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Emissive/Emissive_2.uasset.
+[2016.11.24-09.06.52:472][786]LogLinker:Warning: Can't find file '/Game/StarterContent/GreyLevels/GreyLevel_Parent'
+[2016.11.24-09.06.52:472][786]LoadErrors: Info Failed to load /Game/StarterContent/GreyLevels/GreyLevel_Parent.GreyLevel_Parent Referenced by Emissive_2
+[2016.11.24-09.06.52:472][786]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/GreyLevels/GreyLevel_Parent' while loading NULL.
+[2016.11.24-09.06.52:472][786]LogLinker:Warning: Can't find file '/Game/StarterContent/GreyLevels/GreyLevel_Parent'
+[2016.11.24-09.06.52:473][786]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/GreyLevels/GreyLevel_Parent' while loading ../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Emissive/Emissive_3.uasset.
+[2016.11.24-09.06.52:473][786]LoadErrors:Error: Error /Game/GreyLevels/Emissive/Emissive_3 : Can't find file for asset. /Game/StarterContent/GreyLevels/GreyLevel_Parent
+[2016.11.24-09.06.52:473][786]LogLinker:Warning: Can't find file '/Game/StarterContent/GreyLevels/GreyLevel_Parent'
+[2016.11.24-09.06.52:473][786]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/GreyLevels/GreyLevel_Parent' while loading ../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Emissive/Emissive_3.uasset.
+[2016.11.24-09.06.52:473][786]LogLinker:Warning: Can't find file '/Game/StarterContent/GreyLevels/GreyLevel_Parent'
+[2016.11.24-09.06.52:473][786]LoadErrors: Info Failed to load /Game/StarterContent/GreyLevels/GreyLevel_Parent.GreyLevel_Parent Referenced by Emissive_3
+[2016.11.24-09.06.52:473][786]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/GreyLevels/GreyLevel_Parent' while loading NULL.
+[2016.11.24-09.06.52:474][786]LogLinker:Warning: Can't find file '/Game/StarterContent/GreyLevels/GreyLevel_Parent'
+[2016.11.24-09.06.52:474][786]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/GreyLevels/GreyLevel_Parent' while loading ../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Emissive/Emissive_4.uasset.
+[2016.11.24-09.06.52:474][786]LoadErrors:Error: Error /Game/GreyLevels/Emissive/Emissive_4 : Can't find file for asset. /Game/StarterContent/GreyLevels/GreyLevel_Parent
+[2016.11.24-09.06.52:474][786]LogLinker:Warning: Can't find file '/Game/StarterContent/GreyLevels/GreyLevel_Parent'
+[2016.11.24-09.06.52:474][786]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/GreyLevels/GreyLevel_Parent' while loading ../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Emissive/Emissive_4.uasset.
+[2016.11.24-09.06.52:474][786]LogLinker:Warning: Can't find file '/Game/StarterContent/GreyLevels/GreyLevel_Parent'
+[2016.11.24-09.06.52:474][786]LoadErrors: Info Failed to load /Game/StarterContent/GreyLevels/GreyLevel_Parent.GreyLevel_Parent Referenced by Emissive_4
+[2016.11.24-09.06.52:474][786]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/GreyLevels/GreyLevel_Parent' while loading NULL.
+[2016.11.24-09.06.52:475][786]LogLinker:Warning: Can't find file '/Game/StarterContent/GreyLevels/GreyLevel_Parent'
+[2016.11.24-09.06.52:475][786]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/GreyLevels/GreyLevel_Parent' while loading ../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Emissive/Emissive_5.uasset.
+[2016.11.24-09.06.52:475][786]LoadErrors:Error: Error /Game/GreyLevels/Emissive/Emissive_5 : Can't find file for asset. /Game/StarterContent/GreyLevels/GreyLevel_Parent
+[2016.11.24-09.06.52:475][786]LogLinker:Warning: Can't find file '/Game/StarterContent/GreyLevels/GreyLevel_Parent'
+[2016.11.24-09.06.52:476][786]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/GreyLevels/GreyLevel_Parent' while loading ../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Emissive/Emissive_5.uasset.
+[2016.11.24-09.06.52:476][786]LogLinker:Warning: Can't find file '/Game/StarterContent/GreyLevels/GreyLevel_Parent'
+[2016.11.24-09.06.52:476][786]LoadErrors: Info Failed to load /Game/StarterContent/GreyLevels/GreyLevel_Parent.GreyLevel_Parent Referenced by Emissive_5
+[2016.11.24-09.06.52:476][786]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/GreyLevels/GreyLevel_Parent' while loading NULL.
+[2016.11.24-09.06.52:477][786]LogLinker:Warning: Can't find file '/Game/StarterContent/GreyLevels/GreyLevel_Parent'
+[2016.11.24-09.06.52:477][786]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/GreyLevels/GreyLevel_Parent' while loading ../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Emissive/Emissive_6.uasset.
+[2016.11.24-09.06.52:477][786]LoadErrors:Error: Error /Game/GreyLevels/Emissive/Emissive_6 : Can't find file for asset. /Game/StarterContent/GreyLevels/GreyLevel_Parent
+[2016.11.24-09.06.52:477][786]LogLinker:Warning: Can't find file '/Game/StarterContent/GreyLevels/GreyLevel_Parent'
+[2016.11.24-09.06.52:477][786]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/GreyLevels/GreyLevel_Parent' while loading ../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Emissive/Emissive_6.uasset.
+[2016.11.24-09.06.52:477][786]LogLinker:Warning: Can't find file '/Game/StarterContent/GreyLevels/GreyLevel_Parent'
+[2016.11.24-09.06.52:477][786]LoadErrors: Info Failed to load /Game/StarterContent/GreyLevels/GreyLevel_Parent.GreyLevel_Parent Referenced by Emissive_6
+[2016.11.24-09.06.52:477][786]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/GreyLevels/GreyLevel_Parent' while loading NULL.
+[2016.11.24-09.06.52:478][786]LogLinker:Warning: Can't find file '/Game/StarterContent/GreyLevels/GreyLevel_Parent'
+[2016.11.24-09.06.52:478][786]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/GreyLevels/GreyLevel_Parent' while loading ../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Emissive/Emissive_7.uasset.
+[2016.11.24-09.06.52:478][786]LoadErrors:Error: Error /Game/GreyLevels/Emissive/Emissive_7 : Can't find file for asset. /Game/StarterContent/GreyLevels/GreyLevel_Parent
+[2016.11.24-09.06.52:478][786]LogLinker:Warning: Can't find file '/Game/StarterContent/GreyLevels/GreyLevel_Parent'
+[2016.11.24-09.06.52:478][786]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/GreyLevels/GreyLevel_Parent' while loading ../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Emissive/Emissive_7.uasset.
+[2016.11.24-09.06.52:478][786]LogLinker:Warning: Can't find file '/Game/StarterContent/GreyLevels/GreyLevel_Parent'
+[2016.11.24-09.06.52:479][786]LoadErrors: Info Failed to load /Game/StarterContent/GreyLevels/GreyLevel_Parent.GreyLevel_Parent Referenced by Emissive_7
+[2016.11.24-09.06.52:479][786]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/GreyLevels/GreyLevel_Parent' while loading NULL.
+[2016.11.24-09.06.52:479][786]LogLinker:Warning: Can't find file '/Game/StarterContent/GreyLevels/GreyLevel_Parent'
+[2016.11.24-09.06.52:479][786]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/GreyLevels/GreyLevel_Parent' while loading ../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Matte/Matte_100.uasset.
+[2016.11.24-09.06.52:479][786]LoadErrors:Error: Error /Game/GreyLevels/Matte/Matte_100 : Can't find file for asset. /Game/StarterContent/GreyLevels/GreyLevel_Parent
+[2016.11.24-09.06.52:480][786]LogLinker:Warning: Can't find file '/Game/StarterContent/GreyLevels/GreyLevel_Parent'
+[2016.11.24-09.06.52:480][786]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/GreyLevels/GreyLevel_Parent' while loading ../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Matte/Matte_100.uasset.
+[2016.11.24-09.06.52:480][786]LogLinker:Warning: Can't find file '/Game/StarterContent/GreyLevels/GreyLevel_Parent'
+[2016.11.24-09.06.52:480][786]LoadErrors: Info Failed to load /Game/StarterContent/GreyLevels/GreyLevel_Parent.GreyLevel_Parent Referenced by Matte_100
+[2016.11.24-09.06.52:480][786]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/GreyLevels/GreyLevel_Parent' while loading NULL.
+[2016.11.24-09.06.52:481][786]LogLinker:Warning: Can't find file '/Game/StarterContent/GreyLevels/GreyLevel_Parent'
+[2016.11.24-09.06.52:481][786]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/GreyLevels/GreyLevel_Parent' while loading ../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Matte/Matte_000.uasset.
+[2016.11.24-09.06.52:481][786]LoadErrors:Error: Error /Game/GreyLevels/Matte/Matte_000 : Can't find file for asset. /Game/StarterContent/GreyLevels/GreyLevel_Parent
+[2016.11.24-09.06.52:481][786]LogLinker:Warning: Can't find file '/Game/StarterContent/GreyLevels/GreyLevel_Parent'
+[2016.11.24-09.06.52:481][786]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/GreyLevels/GreyLevel_Parent' while loading ../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Matte/Matte_000.uasset.
+[2016.11.24-09.06.52:481][786]LogLinker:Warning: Can't find file '/Game/StarterContent/GreyLevels/GreyLevel_Parent'
+[2016.11.24-09.06.52:481][786]LoadErrors: Info Failed to load /Game/StarterContent/GreyLevels/GreyLevel_Parent.GreyLevel_Parent Referenced by Matte_000
+[2016.11.24-09.06.52:481][786]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/GreyLevels/GreyLevel_Parent' while loading NULL.
+[2016.11.24-09.06.52:482][786]LogLinker:Warning: Can't find file '/Game/StarterContent/GreyLevels/GreyLevel_Parent'
+[2016.11.24-09.06.52:482][786]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/GreyLevels/GreyLevel_Parent' while loading ../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Matte/Matte_010.uasset.
+[2016.11.24-09.06.52:482][786]LoadErrors:Error: Error /Game/GreyLevels/Matte/Matte_010 : Can't find file for asset. /Game/StarterContent/GreyLevels/GreyLevel_Parent
+[2016.11.24-09.06.52:482][786]LogLinker:Warning: Can't find file '/Game/StarterContent/GreyLevels/GreyLevel_Parent'
+[2016.11.24-09.06.52:482][786]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/GreyLevels/GreyLevel_Parent' while loading ../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Matte/Matte_010.uasset.
+[2016.11.24-09.06.52:482][786]LogLinker:Warning: Can't find file '/Game/StarterContent/GreyLevels/GreyLevel_Parent'
+[2016.11.24-09.06.52:482][786]LoadErrors: Info Failed to load /Game/StarterContent/GreyLevels/GreyLevel_Parent.GreyLevel_Parent Referenced by Matte_010
+[2016.11.24-09.06.52:483][786]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/GreyLevels/GreyLevel_Parent' while loading NULL.
+[2016.11.24-09.06.52:483][786]LogLinker:Warning: Can't find file '/Game/StarterContent/GreyLevels/GreyLevel_Parent'
+[2016.11.24-09.06.52:483][786]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/GreyLevels/GreyLevel_Parent' while loading ../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Matte/Matte_020.uasset.
+[2016.11.24-09.06.52:483][786]LoadErrors:Error: Error /Game/GreyLevels/Matte/Matte_020 : Can't find file for asset. /Game/StarterContent/GreyLevels/GreyLevel_Parent
+[2016.11.24-09.06.52:483][786]LogLinker:Warning: Can't find file '/Game/StarterContent/GreyLevels/GreyLevel_Parent'
+[2016.11.24-09.06.52:484][786]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/GreyLevels/GreyLevel_Parent' while loading ../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Matte/Matte_020.uasset.
+[2016.11.24-09.06.52:484][786]LogLinker:Warning: Can't find file '/Game/StarterContent/GreyLevels/GreyLevel_Parent'
+[2016.11.24-09.06.52:484][786]LoadErrors: Info Failed to load /Game/StarterContent/GreyLevels/GreyLevel_Parent.GreyLevel_Parent Referenced by Matte_020
+[2016.11.24-09.06.52:484][786]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/GreyLevels/GreyLevel_Parent' while loading NULL.
+[2016.11.24-09.06.52:485][786]LogLinker:Warning: Can't find file '/Game/StarterContent/GreyLevels/GreyLevel_Parent'
+[2016.11.24-09.06.52:485][786]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/GreyLevels/GreyLevel_Parent' while loading ../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Matte/Matte_030.uasset.
+[2016.11.24-09.06.52:485][786]LoadErrors:Error: Error /Game/GreyLevels/Matte/Matte_030 : Can't find file for asset. /Game/StarterContent/GreyLevels/GreyLevel_Parent
+[2016.11.24-09.06.52:485][786]LogLinker:Warning: Can't find file '/Game/StarterContent/GreyLevels/GreyLevel_Parent'
+[2016.11.24-09.06.52:485][786]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/GreyLevels/GreyLevel_Parent' while loading ../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Matte/Matte_030.uasset.
+[2016.11.24-09.06.52:485][786]LogLinker:Warning: Can't find file '/Game/StarterContent/GreyLevels/GreyLevel_Parent'
+[2016.11.24-09.06.52:485][786]LoadErrors: Info Failed to load /Game/StarterContent/GreyLevels/GreyLevel_Parent.GreyLevel_Parent Referenced by Matte_030
+[2016.11.24-09.06.52:485][786]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/GreyLevels/GreyLevel_Parent' while loading NULL.
+[2016.11.24-09.06.52:486][786]LogLinker:Warning: Can't find file '/Game/StarterContent/GreyLevels/GreyLevel_Parent'
+[2016.11.24-09.06.52:486][786]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/GreyLevels/GreyLevel_Parent' while loading ../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Matte/Matte_040.uasset.
+[2016.11.24-09.06.52:486][786]LoadErrors:Error: Error /Game/GreyLevels/Matte/Matte_040 : Can't find file for asset. /Game/StarterContent/GreyLevels/GreyLevel_Parent
+[2016.11.24-09.06.52:486][786]LogLinker:Warning: Can't find file '/Game/StarterContent/GreyLevels/GreyLevel_Parent'
+[2016.11.24-09.06.52:486][786]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/GreyLevels/GreyLevel_Parent' while loading ../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Matte/Matte_040.uasset.
+[2016.11.24-09.06.52:486][786]LogLinker:Warning: Can't find file '/Game/StarterContent/GreyLevels/GreyLevel_Parent'
+[2016.11.24-09.06.52:486][786]LoadErrors: Info Failed to load /Game/StarterContent/GreyLevels/GreyLevel_Parent.GreyLevel_Parent Referenced by Matte_040
+[2016.11.24-09.06.52:487][786]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/GreyLevels/GreyLevel_Parent' while loading NULL.
+[2016.11.24-09.06.52:487][786]LogLinker:Warning: Can't find file '/Game/StarterContent/GreyLevels/GreyLevel_Parent'
+[2016.11.24-09.06.52:487][786]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/GreyLevels/GreyLevel_Parent' while loading ../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Matte/Matte_050.uasset.
+[2016.11.24-09.06.52:487][786]LoadErrors:Error: Error /Game/GreyLevels/Matte/Matte_050 : Can't find file for asset. /Game/StarterContent/GreyLevels/GreyLevel_Parent
+[2016.11.24-09.06.52:487][786]LogLinker:Warning: Can't find file '/Game/StarterContent/GreyLevels/GreyLevel_Parent'
+[2016.11.24-09.06.52:488][786]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/GreyLevels/GreyLevel_Parent' while loading ../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Matte/Matte_050.uasset.
+[2016.11.24-09.06.52:488][786]LogLinker:Warning: Can't find file '/Game/StarterContent/GreyLevels/GreyLevel_Parent'
+[2016.11.24-09.06.52:488][786]LoadErrors: Info Failed to load /Game/StarterContent/GreyLevels/GreyLevel_Parent.GreyLevel_Parent Referenced by Matte_050
+[2016.11.24-09.06.52:488][786]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/GreyLevels/GreyLevel_Parent' while loading NULL.
+[2016.11.24-09.06.52:489][786]LogLinker:Warning: Can't find file '/Game/StarterContent/GreyLevels/GreyLevel_Parent'
+[2016.11.24-09.06.52:489][786]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/GreyLevels/GreyLevel_Parent' while loading ../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Matte/Matte_060.uasset.
+[2016.11.24-09.06.52:489][786]LoadErrors:Error: Error /Game/GreyLevels/Matte/Matte_060 : Can't find file for asset. /Game/StarterContent/GreyLevels/GreyLevel_Parent
+[2016.11.24-09.06.52:489][786]LogLinker:Warning: Can't find file '/Game/StarterContent/GreyLevels/GreyLevel_Parent'
+[2016.11.24-09.06.52:489][786]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/GreyLevels/GreyLevel_Parent' while loading ../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Matte/Matte_060.uasset.
+[2016.11.24-09.06.52:489][786]LogLinker:Warning: Can't find file '/Game/StarterContent/GreyLevels/GreyLevel_Parent'
+[2016.11.24-09.06.52:489][786]LoadErrors: Info Failed to load /Game/StarterContent/GreyLevels/GreyLevel_Parent.GreyLevel_Parent Referenced by Matte_060
+[2016.11.24-09.06.52:489][786]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/GreyLevels/GreyLevel_Parent' while loading NULL.
+[2016.11.24-09.06.52:490][786]LogLinker:Warning: Can't find file '/Game/StarterContent/GreyLevels/GreyLevel_Parent'
+[2016.11.24-09.06.52:490][786]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/GreyLevels/GreyLevel_Parent' while loading ../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Matte/Matte_070.uasset.
+[2016.11.24-09.06.52:490][786]LoadErrors:Error: Error /Game/GreyLevels/Matte/Matte_070 : Can't find file for asset. /Game/StarterContent/GreyLevels/GreyLevel_Parent
+[2016.11.24-09.06.52:490][786]LogLinker:Warning: Can't find file '/Game/StarterContent/GreyLevels/GreyLevel_Parent'
+[2016.11.24-09.06.52:490][786]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/GreyLevels/GreyLevel_Parent' while loading ../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Matte/Matte_070.uasset.
+[2016.11.24-09.06.52:490][786]LogLinker:Warning: Can't find file '/Game/StarterContent/GreyLevels/GreyLevel_Parent'
+[2016.11.24-09.06.52:491][786]LoadErrors: Info Failed to load /Game/StarterContent/GreyLevels/GreyLevel_Parent.GreyLevel_Parent Referenced by Matte_070
+[2016.11.24-09.06.52:491][786]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/GreyLevels/GreyLevel_Parent' while loading NULL.
+[2016.11.24-09.06.52:491][786]LogLinker:Warning: Can't find file '/Game/StarterContent/GreyLevels/GreyLevel_Parent'
+[2016.11.24-09.06.52:491][786]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/GreyLevels/GreyLevel_Parent' while loading ../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Matte/Matte_080.uasset.
+[2016.11.24-09.06.52:491][786]LoadErrors:Error: Error /Game/GreyLevels/Matte/Matte_080 : Can't find file for asset. /Game/StarterContent/GreyLevels/GreyLevel_Parent
+[2016.11.24-09.06.52:492][786]LogLinker:Warning: Can't find file '/Game/StarterContent/GreyLevels/GreyLevel_Parent'
+[2016.11.24-09.06.52:492][786]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/GreyLevels/GreyLevel_Parent' while loading ../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Matte/Matte_080.uasset.
+[2016.11.24-09.06.52:492][786]LogLinker:Warning: Can't find file '/Game/StarterContent/GreyLevels/GreyLevel_Parent'
+[2016.11.24-09.06.52:492][786]LoadErrors: Info Failed to load /Game/StarterContent/GreyLevels/GreyLevel_Parent.GreyLevel_Parent Referenced by Matte_080
+[2016.11.24-09.06.52:492][786]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/GreyLevels/GreyLevel_Parent' while loading NULL.
+[2016.11.24-09.06.52:493][786]LogLinker:Warning: Can't find file '/Game/StarterContent/GreyLevels/GreyLevel_Parent'
+[2016.11.24-09.06.52:493][786]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/GreyLevels/GreyLevel_Parent' while loading ../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Matte/Matte_090.uasset.
+[2016.11.24-09.06.52:493][786]LoadErrors:Error: Error /Game/GreyLevels/Matte/Matte_090 : Can't find file for asset. /Game/StarterContent/GreyLevels/GreyLevel_Parent
+[2016.11.24-09.06.52:493][786]LogLinker:Warning: Can't find file '/Game/StarterContent/GreyLevels/GreyLevel_Parent'
+[2016.11.24-09.06.52:493][786]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/GreyLevels/GreyLevel_Parent' while loading ../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Matte/Matte_090.uasset.
+[2016.11.24-09.06.52:493][786]LogLinker:Warning: Can't find file '/Game/StarterContent/GreyLevels/GreyLevel_Parent'
+[2016.11.24-09.06.52:493][786]LoadErrors: Info Failed to load /Game/StarterContent/GreyLevels/GreyLevel_Parent.GreyLevel_Parent Referenced by Matte_090
+[2016.11.24-09.06.52:493][786]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/GreyLevels/GreyLevel_Parent' while loading NULL.
+[2016.11.24-09.06.52:494][786]LogLinker:Warning: Can't find file '/Game/StarterContent/GreyLevels/GreyLevel_Parent'
+[2016.11.24-09.06.52:494][786]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/GreyLevels/GreyLevel_Parent' while loading ../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Shiny/Shiny_100.uasset.
+[2016.11.24-09.06.52:494][786]LoadErrors:Error: Error /Game/GreyLevels/Shiny/Shiny_100 : Can't find file for asset. /Game/StarterContent/GreyLevels/GreyLevel_Parent
+[2016.11.24-09.06.52:494][786]LogLinker:Warning: Can't find file '/Game/StarterContent/GreyLevels/GreyLevel_Parent'
+[2016.11.24-09.06.52:494][786]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/GreyLevels/GreyLevel_Parent' while loading ../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Shiny/Shiny_100.uasset.
+[2016.11.24-09.06.52:495][786]LogLinker:Warning: Can't find file '/Game/StarterContent/GreyLevels/GreyLevel_Parent'
+[2016.11.24-09.06.52:495][786]LoadErrors: Info Failed to load /Game/StarterContent/GreyLevels/GreyLevel_Parent.GreyLevel_Parent Referenced by Shiny_100
+[2016.11.24-09.06.52:495][786]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/GreyLevels/GreyLevel_Parent' while loading NULL.
+[2016.11.24-09.06.52:495][786]LogLinker:Warning: Can't find file '/Game/StarterContent/GreyLevels/GreyLevel_Parent'
+[2016.11.24-09.06.52:495][786]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/GreyLevels/GreyLevel_Parent' while loading ../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Shiny/Shiny_000.uasset.
+[2016.11.24-09.06.52:496][786]LoadErrors:Error: Error /Game/GreyLevels/Shiny/Shiny_000 : Can't find file for asset. /Game/StarterContent/GreyLevels/GreyLevel_Parent
+[2016.11.24-09.06.52:496][786]LogLinker:Warning: Can't find file '/Game/StarterContent/GreyLevels/GreyLevel_Parent'
+[2016.11.24-09.06.52:496][786]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/GreyLevels/GreyLevel_Parent' while loading ../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Shiny/Shiny_000.uasset.
+[2016.11.24-09.06.52:496][786]LogLinker:Warning: Can't find file '/Game/StarterContent/GreyLevels/GreyLevel_Parent'
+[2016.11.24-09.06.52:496][786]LoadErrors: Info Failed to load /Game/StarterContent/GreyLevels/GreyLevel_Parent.GreyLevel_Parent Referenced by Shiny_000
+[2016.11.24-09.06.52:496][786]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/GreyLevels/GreyLevel_Parent' while loading NULL.
+[2016.11.24-09.06.52:497][786]LogLinker:Warning: Can't find file '/Game/StarterContent/GreyLevels/GreyLevel_Parent'
+[2016.11.24-09.06.52:497][786]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/GreyLevels/GreyLevel_Parent' while loading ../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Shiny/Shiny_010.uasset.
+[2016.11.24-09.06.52:497][786]LoadErrors:Error: Error /Game/GreyLevels/Shiny/Shiny_010 : Can't find file for asset. /Game/StarterContent/GreyLevels/GreyLevel_Parent
+[2016.11.24-09.06.52:497][786]LogLinker:Warning: Can't find file '/Game/StarterContent/GreyLevels/GreyLevel_Parent'
+[2016.11.24-09.06.52:497][786]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/GreyLevels/GreyLevel_Parent' while loading ../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Shiny/Shiny_010.uasset.
+[2016.11.24-09.06.52:497][786]LogLinker:Warning: Can't find file '/Game/StarterContent/GreyLevels/GreyLevel_Parent'
+[2016.11.24-09.06.52:497][786]LoadErrors: Info Failed to load /Game/StarterContent/GreyLevels/GreyLevel_Parent.GreyLevel_Parent Referenced by Shiny_010
+[2016.11.24-09.06.52:497][786]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/GreyLevels/GreyLevel_Parent' while loading NULL.
+[2016.11.24-09.06.52:498][786]LogLinker:Warning: Can't find file '/Game/StarterContent/GreyLevels/GreyLevel_Parent'
+[2016.11.24-09.06.52:498][786]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/GreyLevels/GreyLevel_Parent' while loading ../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Shiny/Shiny_020.uasset.
+[2016.11.24-09.06.52:498][786]LoadErrors:Error: Error /Game/GreyLevels/Shiny/Shiny_020 : Can't find file for asset. /Game/StarterContent/GreyLevels/GreyLevel_Parent
+[2016.11.24-09.06.52:498][786]LogLinker:Warning: Can't find file '/Game/StarterContent/GreyLevels/GreyLevel_Parent'
+[2016.11.24-09.06.52:498][786]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/GreyLevels/GreyLevel_Parent' while loading ../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Shiny/Shiny_020.uasset.
+[2016.11.24-09.06.52:499][786]LogLinker:Warning: Can't find file '/Game/StarterContent/GreyLevels/GreyLevel_Parent'
+[2016.11.24-09.06.52:499][786]LoadErrors: Info Failed to load /Game/StarterContent/GreyLevels/GreyLevel_Parent.GreyLevel_Parent Referenced by Shiny_020
+[2016.11.24-09.06.52:499][786]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/GreyLevels/GreyLevel_Parent' while loading NULL.
+[2016.11.24-09.06.52:500][786]LogLinker:Warning: Can't find file '/Game/StarterContent/GreyLevels/GreyLevel_Parent'
+[2016.11.24-09.06.52:500][786]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/GreyLevels/GreyLevel_Parent' while loading ../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Shiny/Shiny_030.uasset.
+[2016.11.24-09.06.52:500][786]LoadErrors:Error: Error /Game/GreyLevels/Shiny/Shiny_030 : Can't find file for asset. /Game/StarterContent/GreyLevels/GreyLevel_Parent
+[2016.11.24-09.06.52:500][786]LogLinker:Warning: Can't find file '/Game/StarterContent/GreyLevels/GreyLevel_Parent'
+[2016.11.24-09.06.52:500][786]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/GreyLevels/GreyLevel_Parent' while loading ../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Shiny/Shiny_030.uasset.
+[2016.11.24-09.06.52:500][786]LogLinker:Warning: Can't find file '/Game/StarterContent/GreyLevels/GreyLevel_Parent'
+[2016.11.24-09.06.52:500][786]LoadErrors: Info Failed to load /Game/StarterContent/GreyLevels/GreyLevel_Parent.GreyLevel_Parent Referenced by Shiny_030
+[2016.11.24-09.06.52:500][786]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/GreyLevels/GreyLevel_Parent' while loading NULL.
+[2016.11.24-09.06.52:501][786]LogLinker:Warning: Can't find file '/Game/StarterContent/GreyLevels/GreyLevel_Parent'
+[2016.11.24-09.06.52:501][786]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/GreyLevels/GreyLevel_Parent' while loading ../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Shiny/Shiny_040.uasset.
+[2016.11.24-09.06.52:501][786]LoadErrors:Error: Error /Game/GreyLevels/Shiny/Shiny_040 : Can't find file for asset. /Game/StarterContent/GreyLevels/GreyLevel_Parent
+[2016.11.24-09.06.52:501][786]LogLinker:Warning: Can't find file '/Game/StarterContent/GreyLevels/GreyLevel_Parent'
+[2016.11.24-09.06.52:501][786]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/GreyLevels/GreyLevel_Parent' while loading ../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Shiny/Shiny_040.uasset.
+[2016.11.24-09.06.52:502][786]LogLinker:Warning: Can't find file '/Game/StarterContent/GreyLevels/GreyLevel_Parent'
+[2016.11.24-09.06.52:502][786]LoadErrors: Info Failed to load /Game/StarterContent/GreyLevels/GreyLevel_Parent.GreyLevel_Parent Referenced by Shiny_040
+[2016.11.24-09.06.52:502][786]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/GreyLevels/GreyLevel_Parent' while loading NULL.
+[2016.11.24-09.06.52:502][786]LogLinker:Warning: Can't find file '/Game/StarterContent/GreyLevels/GreyLevel_Parent'
+[2016.11.24-09.06.52:503][786]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/GreyLevels/GreyLevel_Parent' while loading ../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Shiny/Shiny_050.uasset.
+[2016.11.24-09.06.52:503][786]LoadErrors:Error: Error /Game/GreyLevels/Shiny/Shiny_050 : Can't find file for asset. /Game/StarterContent/GreyLevels/GreyLevel_Parent
+[2016.11.24-09.06.52:503][786]LogLinker:Warning: Can't find file '/Game/StarterContent/GreyLevels/GreyLevel_Parent'
+[2016.11.24-09.06.52:503][786]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/GreyLevels/GreyLevel_Parent' while loading ../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Shiny/Shiny_050.uasset.
+[2016.11.24-09.06.52:503][786]LogLinker:Warning: Can't find file '/Game/StarterContent/GreyLevels/GreyLevel_Parent'
+[2016.11.24-09.06.52:503][786]LoadErrors: Info Failed to load /Game/StarterContent/GreyLevels/GreyLevel_Parent.GreyLevel_Parent Referenced by Shiny_050
+[2016.11.24-09.06.52:503][786]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/GreyLevels/GreyLevel_Parent' while loading NULL.
+[2016.11.24-09.06.52:504][786]LogLinker:Warning: Can't find file '/Game/StarterContent/GreyLevels/GreyLevel_Parent'
+[2016.11.24-09.06.52:504][786]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/GreyLevels/GreyLevel_Parent' while loading ../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Shiny/Shiny_060.uasset.
+[2016.11.24-09.06.52:504][786]LoadErrors:Error: Error /Game/GreyLevels/Shiny/Shiny_060 : Can't find file for asset. /Game/StarterContent/GreyLevels/GreyLevel_Parent
+[2016.11.24-09.06.52:504][786]LogLinker:Warning: Can't find file '/Game/StarterContent/GreyLevels/GreyLevel_Parent'
+[2016.11.24-09.06.52:504][786]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/GreyLevels/GreyLevel_Parent' while loading ../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Shiny/Shiny_060.uasset.
+[2016.11.24-09.06.52:504][786]LogLinker:Warning: Can't find file '/Game/StarterContent/GreyLevels/GreyLevel_Parent'
+[2016.11.24-09.06.52:504][786]LoadErrors: Info Failed to load /Game/StarterContent/GreyLevels/GreyLevel_Parent.GreyLevel_Parent Referenced by Shiny_060
+[2016.11.24-09.06.52:505][786]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/GreyLevels/GreyLevel_Parent' while loading NULL.
+[2016.11.24-09.06.52:505][786]LogLinker:Warning: Can't find file '/Game/StarterContent/GreyLevels/GreyLevel_Parent'
+[2016.11.24-09.06.52:505][786]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/GreyLevels/GreyLevel_Parent' while loading ../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Shiny/Shiny_070.uasset.
+[2016.11.24-09.06.52:506][786]LoadErrors:Error: Error /Game/GreyLevels/Shiny/Shiny_070 : Can't find file for asset. /Game/StarterContent/GreyLevels/GreyLevel_Parent
+[2016.11.24-09.06.52:506][786]LogLinker:Warning: Can't find file '/Game/StarterContent/GreyLevels/GreyLevel_Parent'
+[2016.11.24-09.06.52:506][786]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/GreyLevels/GreyLevel_Parent' while loading ../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Shiny/Shiny_070.uasset.
+[2016.11.24-09.06.52:506][786]LogLinker:Warning: Can't find file '/Game/StarterContent/GreyLevels/GreyLevel_Parent'
+[2016.11.24-09.06.52:506][786]LoadErrors: Info Failed to load /Game/StarterContent/GreyLevels/GreyLevel_Parent.GreyLevel_Parent Referenced by Shiny_070
+[2016.11.24-09.06.52:506][786]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/GreyLevels/GreyLevel_Parent' while loading NULL.
+[2016.11.24-09.06.52:507][786]LogLinker:Warning: Can't find file '/Game/StarterContent/GreyLevels/GreyLevel_Parent'
+[2016.11.24-09.06.52:507][786]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/GreyLevels/GreyLevel_Parent' while loading ../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Shiny/Shiny_080.uasset.
+[2016.11.24-09.06.52:507][786]LoadErrors:Error: Error /Game/GreyLevels/Shiny/Shiny_080 : Can't find file for asset. /Game/StarterContent/GreyLevels/GreyLevel_Parent
+[2016.11.24-09.06.52:507][786]LogLinker:Warning: Can't find file '/Game/StarterContent/GreyLevels/GreyLevel_Parent'
+[2016.11.24-09.06.52:507][786]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/GreyLevels/GreyLevel_Parent' while loading ../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Shiny/Shiny_080.uasset.
+[2016.11.24-09.06.52:508][786]LogLinker:Warning: Can't find file '/Game/StarterContent/GreyLevels/GreyLevel_Parent'
+[2016.11.24-09.06.52:508][786]LoadErrors: Info Failed to load /Game/StarterContent/GreyLevels/GreyLevel_Parent.GreyLevel_Parent Referenced by Shiny_080
+[2016.11.24-09.06.52:508][786]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/GreyLevels/GreyLevel_Parent' while loading NULL.
+[2016.11.24-09.06.52:509][786]LogLinker:Warning: Can't find file '/Game/StarterContent/GreyLevels/GreyLevel_Parent'
+[2016.11.24-09.06.52:509][786]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/GreyLevels/GreyLevel_Parent' while loading ../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Shiny/Shiny_090.uasset.
+[2016.11.24-09.06.52:509][786]LoadErrors:Error: Error /Game/GreyLevels/Shiny/Shiny_090 : Can't find file for asset. /Game/StarterContent/GreyLevels/GreyLevel_Parent
+[2016.11.24-09.06.52:509][786]LogLinker:Warning: Can't find file '/Game/StarterContent/GreyLevels/GreyLevel_Parent'
+[2016.11.24-09.06.52:509][786]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/GreyLevels/GreyLevel_Parent' while loading ../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Shiny/Shiny_090.uasset.
+[2016.11.24-09.06.52:509][786]LogLinker:Warning: Can't find file '/Game/StarterContent/GreyLevels/GreyLevel_Parent'
+[2016.11.24-09.06.52:509][786]LoadErrors: Info Failed to load /Game/StarterContent/GreyLevels/GreyLevel_Parent.GreyLevel_Parent Referenced by Shiny_090
+[2016.11.24-09.06.52:509][786]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/GreyLevels/GreyLevel_Parent' while loading NULL.
+[2016.11.24-09.06.58:268][176]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.11.24-09.07.01:962][518]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.11.24-09.07.04:091][716]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GreyLevels/Shiny/Shiny_080" FILE="../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Shiny/Shiny_080.uasset" SILENT=true
+[2016.11.24-09.07.04:106][716]LogSavePackage: Save=10.64ms
+[2016.11.24-09.07.04:107][716]LogSavePackage: Moving '../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Saved/Shiny_080480219F642283D902E3DF8A9BF87190D.tmp' to '../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Shiny/Shiny_080.uasset'
+[2016.11.24-09.07.04:109][716]LogSavePackage:Display: Finished SavePackage ../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Shiny/Shiny_080.uasset
+[2016.11.24-09.07.06:030][897]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.11.24-09.07.06:870][975]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GreyLevels/Shiny/Shiny_070" FILE="../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Shiny/Shiny_070.uasset" SILENT=true
+[2016.11.24-09.07.06:885][975]LogSavePackage: Save=10.30ms
+[2016.11.24-09.07.06:885][975]LogSavePackage: Moving '../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Saved/Shiny_0703BE690E745742C42CFDDA88B346D2FB3.tmp' to '../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Shiny/Shiny_070.uasset'
+[2016.11.24-09.07.06:887][975]LogSavePackage:Display: Finished SavePackage ../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Shiny/Shiny_070.uasset
+[2016.11.24-09.07.09:432][219]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.11.24-09.07.10:220][290]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GreyLevels/Shiny/Shiny_060" FILE="../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Shiny/Shiny_060.uasset" SILENT=true
+[2016.11.24-09.07.10:235][290]LogSavePackage: Save=10.63ms
+[2016.11.24-09.07.10:235][290]LogSavePackage: Moving '../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Saved/Shiny_0609509B51642E4DAB810C0A0AFC63B2443.tmp' to '../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Shiny/Shiny_060.uasset'
+[2016.11.24-09.07.10:237][290]LogSavePackage:Display: Finished SavePackage ../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Shiny/Shiny_060.uasset
+[2016.11.24-09.07.11:687][426]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.11.24-09.07.12:236][474]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GreyLevels/Shiny/Shiny_050" FILE="../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Shiny/Shiny_050.uasset" SILENT=true
+[2016.11.24-09.07.12:251][474]LogSavePackage: Save=10.68ms
+[2016.11.24-09.07.12:252][474]LogSavePackage: Moving '../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Saved/Shiny_05093A2829443F6F78F3CE4CF8EE3084CD9.tmp' to '../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Shiny/Shiny_050.uasset'
+[2016.11.24-09.07.12:254][474]LogSavePackage:Display: Finished SavePackage ../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Shiny/Shiny_050.uasset
+[2016.11.24-09.07.14:074][647]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.11.24-09.07.14:671][701]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GreyLevels/Shiny/Shiny_040" FILE="../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Shiny/Shiny_040.uasset" SILENT=true
+[2016.11.24-09.07.14:687][701]LogSavePackage: Save=10.91ms
+[2016.11.24-09.07.14:687][701]LogSavePackage: Moving '../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Saved/Shiny_04091B0E68440A2DD5271DA19B3C2BA185D.tmp' to '../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Shiny/Shiny_040.uasset'
+[2016.11.24-09.07.14:689][701]LogSavePackage:Display: Finished SavePackage ../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Shiny/Shiny_040.uasset
+[2016.11.24-09.07.16:118][836]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.11.24-09.07.16:604][879]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GreyLevels/Shiny/Shiny_030" FILE="../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Shiny/Shiny_030.uasset" SILENT=true
+[2016.11.24-09.07.16:620][879]LogSavePackage: Save=10.82ms
+[2016.11.24-09.07.16:620][879]LogSavePackage: Moving '../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Saved/Shiny_03046D6EC6D436A3CA343B3E6ABF08FA365.tmp' to '../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Shiny/Shiny_030.uasset'
+[2016.11.24-09.07.16:622][879]LogSavePackage:Display: Finished SavePackage ../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Shiny/Shiny_030.uasset
+[2016.11.24-09.07.18:193][ 29]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.11.24-09.07.18:650][ 69]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GreyLevels/Shiny/Shiny_020" FILE="../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Shiny/Shiny_020.uasset" SILENT=true
+[2016.11.24-09.07.18:666][ 69]LogSavePackage: Save=10.91ms
+[2016.11.24-09.07.18:666][ 69]LogSavePackage: Moving '../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Saved/Shiny_020B3B409D54F06B9E3EA933D90472582BC.tmp' to '../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Shiny/Shiny_020.uasset'
+[2016.11.24-09.07.18:668][ 69]LogSavePackage:Display: Finished SavePackage ../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Shiny/Shiny_020.uasset
+[2016.11.24-09.07.20:107][208]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.11.24-09.07.20:616][254]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GreyLevels/Shiny/Shiny_010" FILE="../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Shiny/Shiny_010.uasset" SILENT=true
+[2016.11.24-09.07.20:632][254]LogSavePackage: Save=10.85ms
+[2016.11.24-09.07.20:632][254]LogSavePackage: Moving '../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Saved/Shiny_010DE6128C8497F1FDBD71E3ABFB414E43E.tmp' to '../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Shiny/Shiny_010.uasset'
+[2016.11.24-09.07.20:634][254]LogSavePackage:Display: Finished SavePackage ../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Shiny/Shiny_010.uasset
+[2016.11.24-09.07.23:591][544]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.11.24-09.07.24:016][583]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GreyLevels/Shiny/Shiny_100" FILE="../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Shiny/Shiny_100.uasset" SILENT=true
+[2016.11.24-09.07.24:031][583]LogSavePackage: Save=10.24ms
+[2016.11.24-09.07.24:031][583]LogSavePackage: Moving '../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Saved/Shiny_10030D62CE14853C4E83DFB8D9FD7BF5D21.tmp' to '../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Shiny/Shiny_100.uasset'
+[2016.11.24-09.07.24:033][583]LogSavePackage:Display: Finished SavePackage ../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Shiny/Shiny_100.uasset
+[2016.11.24-09.07.27:524][928]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.11.24-09.07.28:085][979]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GreyLevels/Matte/Matte_090" FILE="../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Matte/Matte_090.uasset" SILENT=true
+[2016.11.24-09.07.28:100][979]LogSavePackage: Save=9.69ms
+[2016.11.24-09.07.28:100][979]LogSavePackage: Moving '../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Saved/Matte_0909E972D454429D4F71AEAE2AEDDB33EE8.tmp' to '../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Matte/Matte_090.uasset'
+[2016.11.24-09.07.28:102][979]LogSavePackage:Display: Finished SavePackage ../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Matte/Matte_090.uasset
+[2016.11.24-09.07.29:694][137]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.11.24-09.07.30:232][187]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GreyLevels/Matte/Matte_080" FILE="../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Matte/Matte_080.uasset" SILENT=true
+[2016.11.24-09.07.30:264][187]LogSavePackage: Save=26.49ms
+[2016.11.24-09.07.30:264][187]LogSavePackage: Moving '../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Saved/Matte_08051A931E64CB05606D4CBB783F7B4D78F.tmp' to '../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Matte/Matte_080.uasset'
+[2016.11.24-09.07.30:266][187]LogSavePackage:Display: Finished SavePackage ../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Matte/Matte_080.uasset
+[2016.11.24-09.07.32:312][393]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.11.24-09.07.32:714][429]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GreyLevels/Matte/Matte_070" FILE="../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Matte/Matte_070.uasset" SILENT=true
+[2016.11.24-09.07.32:731][429]LogSavePackage: Save=10.95ms
+[2016.11.24-09.07.32:731][429]LogSavePackage: Moving '../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Saved/Matte_070B3B86AE943C8E382BD6145AFB122FDF4.tmp' to '../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Matte/Matte_070.uasset'
+[2016.11.24-09.07.32:732][429]LogSavePackage:Display: Finished SavePackage ../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Matte/Matte_070.uasset
+[2016.11.24-09.07.34:629][621]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.11.24-09.07.35:080][664]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GreyLevels/Matte/Matte_060" FILE="../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Matte/Matte_060.uasset" SILENT=true
+[2016.11.24-09.07.35:096][664]LogSavePackage: Save=10.98ms
+[2016.11.24-09.07.35:096][664]LogSavePackage: Moving '../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Saved/Matte_060AC850F88475DC862D41B55864F7BD506.tmp' to '../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Matte/Matte_060.uasset'
+[2016.11.24-09.07.35:098][664]LogSavePackage:Display: Finished SavePackage ../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Matte/Matte_060.uasset
+[2016.11.24-09.07.36:604][814]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.11.24-09.07.37:030][853]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GreyLevels/Matte/Matte_050" FILE="../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Matte/Matte_050.uasset" SILENT=true
+[2016.11.24-09.07.37:045][853]LogSavePackage: Save=10.67ms
+[2016.11.24-09.07.37:045][853]LogSavePackage: Moving '../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Saved/Matte_0501BFED3574CA4EB2EFBAD2697C38E2FCF.tmp' to '../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Matte/Matte_050.uasset'
+[2016.11.24-09.07.37:047][853]LogSavePackage:Display: Finished SavePackage ../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Matte/Matte_050.uasset
+[2016.11.24-09.07.38:510][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.11.24-09.07.38:929][ 38]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GreyLevels/Matte/Matte_040" FILE="../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Matte/Matte_040.uasset" SILENT=true
+[2016.11.24-09.07.38:946][ 38]LogSavePackage: Save=10.87ms
+[2016.11.24-09.07.38:946][ 38]LogSavePackage: Moving '../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Saved/Matte_0404647541E4EC7BCE356562C881E92857E.tmp' to '../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Matte/Matte_040.uasset'
+[2016.11.24-09.07.38:948][ 38]LogSavePackage:Display: Finished SavePackage ../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Matte/Matte_040.uasset
+[2016.11.24-09.07.40:475][193]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.11.24-09.07.40:846][227]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GreyLevels/Matte/Matte_030" FILE="../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Matte/Matte_030.uasset" SILENT=true
+[2016.11.24-09.07.40:862][227]LogSavePackage: Save=10.84ms
+[2016.11.24-09.07.40:862][227]LogSavePackage: Moving '../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Saved/Matte_03093393166444B67A3666042BB61E4CBB0.tmp' to '../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Matte/Matte_030.uasset'
+[2016.11.24-09.07.40:864][227]LogSavePackage:Display: Finished SavePackage ../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Matte/Matte_030.uasset
+[2016.11.24-09.07.42:410][385]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.11.24-09.07.42:779][420]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GreyLevels/Matte/Matte_020" FILE="../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Matte/Matte_020.uasset" SILENT=true
+[2016.11.24-09.07.42:795][420]LogSavePackage: Save=10.82ms
+[2016.11.24-09.07.42:795][420]LogSavePackage: Moving '../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Saved/Matte_0203E5FA31E49CEC6E64A7DDF9A2AACB35A.tmp' to '../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Matte/Matte_020.uasset'
+[2016.11.24-09.07.42:797][420]LogSavePackage:Display: Finished SavePackage ../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Matte/Matte_020.uasset
+[2016.11.24-09.07.44:886][633]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.11.24-09.07.45:294][672]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GreyLevels/Matte/Matte_010" FILE="../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Matte/Matte_010.uasset" SILENT=true
+[2016.11.24-09.07.45:310][672]LogSavePackage: Save=10.60ms
+[2016.11.24-09.07.45:310][672]LogSavePackage: Moving '../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Saved/Matte_0108371E0054509D62D021F2FB35487819B.tmp' to '../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Matte/Matte_010.uasset'
+[2016.11.24-09.07.45:312][672]LogSavePackage:Display: Finished SavePackage ../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Matte/Matte_010.uasset
+[2016.11.24-09.07.46:788][825]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.11.24-09.07.47:211][865]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GreyLevels/Matte/Matte_000" FILE="../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Matte/Matte_000.uasset" SILENT=true
+[2016.11.24-09.07.47:227][865]LogSavePackage: Save=10.49ms
+[2016.11.24-09.07.47:227][865]LogSavePackage: Moving '../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Saved/Matte_0002FFD01BF45513898DCC2F5B3B0236853.tmp' to '../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Matte/Matte_000.uasset'
+[2016.11.24-09.07.47:229][865]LogSavePackage:Display: Finished SavePackage ../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Matte/Matte_000.uasset
+[2016.11.24-09.07.48:596][  7]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.11.24-09.07.48:911][ 36]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GreyLevels/Matte/Matte_100" FILE="../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Matte/Matte_100.uasset" SILENT=true
+[2016.11.24-09.07.48:928][ 36]LogSavePackage: Save=10.20ms
+[2016.11.24-09.07.48:928][ 36]LogSavePackage: Moving '../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Saved/Matte_100CB3C044B4733AE10E1E0A686FE42D2CF.tmp' to '../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Matte/Matte_100.uasset'
+[2016.11.24-09.07.48:930][ 36]LogSavePackage:Display: Finished SavePackage ../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Matte/Matte_100.uasset
+[2016.11.24-09.07.50:915][245]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.11.24-09.07.51:508][303]LogSavePackage: Save=8.28ms
+[2016.11.24-09.07.51:508][303]LogSavePackage: Moving '../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Saved/Emissive_8F41C60B74FF0E495298CF5A44F317572.tmp' to '../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Emissive/Emissive_8.uasset'
+[2016.11.24-09.07.51:510][303]LogSavePackage:Display: Finished SavePackage ../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Emissive/Emissive_8.uasset
+[2016.11.24-09.07.52:990][459]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.11.24-09.07.53:509][509]LogSavePackage: Save=9.16ms
+[2016.11.24-09.07.53:509][509]LogSavePackage: Moving '../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Saved/Emissive_7A194708548684A89C9F15D948F19BF1E.tmp' to '../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Emissive/Emissive_7.uasset'
+[2016.11.24-09.07.53:511][509]LogSavePackage:Display: Finished SavePackage ../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Emissive/Emissive_7.uasset
+[2016.11.24-09.07.55:238][691]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.11.24-09.07.55:775][743]LogSavePackage: Save=9.22ms
+[2016.11.24-09.07.55:775][743]LogSavePackage: Moving '../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Saved/Emissive_6AD260E104B27AD52B7F3E1B7E107DBA1.tmp' to '../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Emissive/Emissive_6.uasset'
+[2016.11.24-09.07.55:777][743]LogSavePackage:Display: Finished SavePackage ../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Emissive/Emissive_6.uasset
+[2016.11.24-09.07.57:538][932]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.11.24-09.07.58:108][988]LogSavePackage: Save=9.60ms
+[2016.11.24-09.07.58:108][988]LogSavePackage: Moving '../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Saved/Emissive_5B074931D413AFABB797AAAAA5855727E.tmp' to '../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Emissive/Emissive_5.uasset'
+[2016.11.24-09.07.58:110][988]LogSavePackage:Display: Finished SavePackage ../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Emissive/Emissive_5.uasset
+[2016.11.24-09.07.59:438][125]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.11.24-09.07.59:974][177]LogSavePackage: Save=9.75ms
+[2016.11.24-09.07.59:974][177]LogSavePackage: Moving '../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Saved/Emissive_455875FF44A188C7D71F22FB046BD50BA.tmp' to '../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Emissive/Emissive_4.uasset'
+[2016.11.24-09.07.59:976][177]LogSavePackage:Display: Finished SavePackage ../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Emissive/Emissive_4.uasset
+[2016.11.24-09.08.01:923][388]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.11.24-09.08.02:573][455]LogSavePackage: Save=9.58ms
+[2016.11.24-09.08.02:573][455]LogSavePackage: Moving '../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Saved/Emissive_321E2B5AE4313B61BDA01B59C5E383095.tmp' to '../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Emissive/Emissive_3.uasset'
+[2016.11.24-09.08.02:575][455]LogSavePackage:Display: Finished SavePackage ../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Emissive/Emissive_3.uasset
+[2016.11.24-09.08.04:455][659]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.11.24-09.08.04:957][709]LogSavePackage: Save=10.29ms
+[2016.11.24-09.08.04:957][709]LogSavePackage: Moving '../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Saved/Emissive_2CDF6F3064FE690CFE10679817FA5A436.tmp' to '../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Emissive/Emissive_2.uasset'
+[2016.11.24-09.08.04:959][709]LogSavePackage:Display: Finished SavePackage ../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Emissive/Emissive_2.uasset
+[2016.11.24-09.08.06:391][860]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.11.24-09.08.06:941][915]LogSavePackage: Save=10.48ms
+[2016.11.24-09.08.06:941][915]LogSavePackage: Moving '../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Saved/Emissive_17FFABD6847DC192016E1578DDEE02E93.tmp' to '../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Emissive/Emissive_1.uasset'
+[2016.11.24-09.08.06:943][915]LogSavePackage:Display: Finished SavePackage ../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/GreyLevels/Emissive/Emissive_1.uasset
+[2016.11.24-09.08.14:092][569]LogSavePackage: Save=8.43ms
+[2016.11.24-09.08.14:092][569]LogSavePackage: Moving '../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Saved/20161125_LALLEMAND_mapBEA1A0414EE5E3C93D0B86AA4C42B2C5.tmp' to '../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/20161125_LALLEMAND_map.umap'
+[2016.11.24-09.08.14:093][569]LogSavePackage:Display: Finished SavePackage ../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/20161125_LALLEMAND_map.umap
+[2016.11.24-09.08.20:275][207]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Skybox)
+[2016.11.24-09.08.36:391][789]LogSavePackage: Save=9.23ms
+[2016.11.24-09.08.36:391][789]LogSavePackage: Moving '../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Saved/20161125_LALLEMAND_mapB76AB42E48DE5073035209920685D9D9.tmp' to '../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/20161125_LALLEMAND_map.umap'
+[2016.11.24-09.08.36:393][789]LogSavePackage:Display: Finished SavePackage ../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/20161125_LALLEMAND_map.umap
+[2016.11.24-09.09.42:094][443]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2016.11.24-09.09.53:115][530]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2016.11.24-09.10.05:602][748]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.11.24-09.10.05:632][748]LogEditorActor: Deleted 1 Actors (0.031 secs)
+[2016.11.24-09.10.07:406][959]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Skybox)
+[2016.11.24-09.10.07:693][990]Cmd: DELETE
+[2016.11.24-09.10.07:693][990]Cmd: ACTOR DELETE
+[2016.11.24-09.10.07:716][990]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.11.24-09.10.07:724][990]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2016.11.24-09.10.13:878][728]Cmd: TRANSACTION UNDO
+[2016.11.24-09.10.13:878][728]LogEditorTransaction: Undo Delete Actors
+[2016.11.24-09.10.14:602][792]Cmd: TRANSACTION UNDO
+[2016.11.24-09.10.14:602][792]LogEditorTransaction: Undo Clicking on Actors
+[2016.11.24-09.10.15:034][843]Cmd: TRANSACTION UNDO
+[2016.11.24-09.10.15:034][843]LogEditorTransaction: Undo Delete selection
+[2016.11.24-09.11.10:665][319]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.11.24-09.11.10:673][319]LogEditorActor: Deleted 1 Actors (0.008 secs)
+[2016.11.24-09.11.14:948][824]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.11.24-09.11.14:956][824]LogEditorActor: Deleted 1 Actors (0.008 secs)
+[2016.11.24-09.11.16:517][ 11]Cmd: SELECT NONE
+[2016.11.24-09.11.17:484][122]LogSavePackage: Save=9.47ms
+[2016.11.24-09.11.17:484][122]LogSavePackage: Moving '../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Saved/20161125_LALLEMAND_map899B3A6741063E8500956CBDC95859C3.tmp' to '../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/20161125_LALLEMAND_map.umap'
+[2016.11.24-09.11.17:485][122]LogSavePackage:Display: Finished SavePackage ../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/20161125_LALLEMAND_map.umap
+[2016.11.24-09.21.17:912][ 36]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/20161125_LALLEMAND_map' took 0.011
+[2016.11.24-09.21.17:914][ 36]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/GreyLevels/Shiny/Shiny_090] ([1] browsable assets)...
+[2016.11.24-09.21.17:946][ 36]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/GreyLevels/Shiny/Shiny_090.Shiny_090]
+[2016.11.24-09.21.17:946][ 36]OBJ SavePackage: Finished generating thumbnails for package [/Game/GreyLevels/Shiny/Shiny_090]
+[2016.11.24-09.21.17:962][ 36]LogSavePackage: Save=10.44ms
+[2016.11.24-09.21.17:962][ 36]LogSavePackage: Moving '../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Saved/Shiny_090_Auto15B0104AA411E6DF4D9F8A4BA89668FC0.tmp' to '../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Saved/Autosaves/Game/GreyLevels/Shiny/Shiny_090_Auto1.uasset'
+[2016.11.24-09.21.17:963][ 36]LogSavePackage:Display: Finished SavePackage ../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Saved/Autosaves/Game/GreyLevels/Shiny/Shiny_090_Auto1.uasset
+[2016.11.24-09.21.17:963][ 36]LogFileHelpers: Auto-saving content packages took 0.050
+[2016.11.24-12.53.17:678][821]LogSavePackage: Save=8.98ms
+[2016.11.24-12.53.17:678][821]LogSavePackage: Moving '../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Saved/20161125_LALLEMAND_mapB241D6A44FC89CBA8F30DA9BFB4F67E3.tmp' to '../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/20161125_LALLEMAND_map.umap'
+[2016.11.24-12.53.17:682][821]LogSavePackage:Display: Finished SavePackage ../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/20161125_LALLEMAND_map.umap
+[2016.11.24-13.26.56:798][248]Cmd: QUIT_EDITOR
+[2016.11.24-13.26.56:820][248]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.11.24-13.26.56:839][248]LogExit: Preparing to exit.
+[2016.11.24-13.26.57:642][248]LogDirectoryWatcher: A directory notification for 'C:/Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/' was aborted.
+[2016.11.24-13.26.57:680][248]LogExit: Editor shut down
+[2016.11.24-13.26.57:681][248]LogExit: Transaction tracking system shut down
+[2016.11.24-13.26.57:753][248]LogObj: Freed 0b from 0 cluster array pools.
+[2016.11.24-13.26.57:753][248]LogExit: Object subsystem successfully closed.
+[2016.11.24-13.26.57:766][248]LogD3D11RHI: Shutdown
+[2016.11.24-13.26.57:766][248]LogD3D11RHI: CleanupD3DDevice
+[2016.11.24-13.26.57:836][248]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.11.24-13.26.57:845][248]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2016.11.24-13.26.57:845][248]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7C8D3734-424A-6A51-B037-519B1E592C2A%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.14.0-3195953%2B%2B%2BUE4%2BRelease-4.14&UserID=f5732be24516f5525566be8e61bb7802%7Ceacce3d16e2e44988f9450bdc9812f0a%7C1dd36f97-e1bf-426f-a4fc-512cdcb48808&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2016.11.24-13.26.57:873][248]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (243)
+[2016.11.24-13.26.57:873][248]LogModuleManager: Shutting down and abandoning module MaterialEditor (242)
+[2016.11.24-13.26.57:873][248]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (241)
+[2016.11.24-13.26.57:873][248]LogModuleManager: Shutting down and abandoning module CrashTracker (240)
+[2016.11.24-13.26.57:873][248]LogModuleManager: Shutting down and abandoning module SceneOutliner (239)
+[2016.11.24-13.26.57:873][248]LogModuleManager: Shutting down and abandoning module WidgetCarousel (238)
+[2016.11.24-13.26.57:873][248]LogModuleManager: Shutting down and abandoning module AddContentDialog (237)
+[2016.11.24-13.26.57:873][248]LogDirectoryWatcher: A directory notification for 'C:/UE4/UnrealEngine/Epic Games/4.14/FeaturePacks/' was aborted.
+[2016.11.24-13.26.57:876][248]LogModuleManager: Shutting down and abandoning module GameplayTags (236)
+[2016.11.24-13.26.57:876][248]LogModuleManager: Shutting down and abandoning module EditorWidgets (235)
+[2016.11.24-13.26.57:876][248]LogModuleManager: Shutting down and abandoning module CollectionManager (234)
+[2016.11.24-13.26.57:876][248]LogDirectoryWatcher: A directory notification for 'C:/Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/Collections/' was aborted.
+[2016.11.24-13.26.57:876][248]LogDirectoryWatcher: A directory notification for 'C:/Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/Developers/ilallemand/Collections/' was aborted.
+[2016.11.24-13.26.57:876][248]LogDirectoryWatcher: A directory notification for 'C:/Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Saved/Collections/' was aborted.
+[2016.11.24-13.26.57:876][248]LogModuleManager: Shutting down and abandoning module StatsViewer (233)
+[2016.11.24-13.26.57:876][248]LogModuleManager: Shutting down and abandoning module FoliageEdit (232)
+[2016.11.24-13.26.57:876][248]LogModuleManager: Shutting down and abandoning module LandscapeEditor (231)
+[2016.11.24-13.26.57:876][248]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (230)
+[2016.11.24-13.26.57:876][248]LogModuleManager: Shutting down and abandoning module ActorPickerMode (229)
+[2016.11.24-13.26.57:876][248]LogModuleManager: Shutting down and abandoning module GeometryMode (228)
+[2016.11.24-13.26.57:876][248]LogModuleManager: Shutting down and abandoning module TextureAlignMode (227)
+[2016.11.24-13.26.57:876][248]LogModuleManager: Shutting down and abandoning module BspMode (226)
+[2016.11.24-13.26.57:876][248]LogModuleManager: Shutting down and abandoning module HardwareSurvey (225)
+[2016.11.24-13.26.57:876][248]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (224)
+[2016.11.24-13.26.57:876][248]LogModuleManager: Shutting down and abandoning module AutomationWorker (223)
+[2016.11.24-13.26.57:876][248]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (222)
+[2016.11.24-13.26.57:876][248]LogModuleManager: Shutting down and abandoning module PlacementMode (221)
+[2016.11.24-13.26.57:876][248]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (220)
+[2016.11.24-13.26.57:876][248]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (219)
+[2016.11.24-13.26.57:876][248]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (218)
+[2016.11.24-13.26.57:876][248]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (217)
+[2016.11.24-13.26.57:876][248]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (216)
+[2016.11.24-13.26.57:876][248]LogModuleManager: Shutting down and abandoning module Media (215)
+[2016.11.24-13.26.57:876][248]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (214)
+[2016.11.24-13.26.57:876][248]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (213)
+[2016.11.24-13.26.57:876][248]LogModuleManager: Shutting down and abandoning module CharacterAI (212)
+[2016.11.24-13.26.57:876][248]LogModuleManager: Shutting down and abandoning module SequenceRecorder (211)
+[2016.11.24-13.26.57:876][248]LogModuleManager: Shutting down and abandoning module AudioCapture (210)
+[2016.11.24-13.26.57:876][248]LogModuleManager: Shutting down and abandoning module SmartSnapping (209)
+[2016.11.24-13.26.57:876][248]LogModuleManager: Shutting down and abandoning module SessionServices (208)
+[2016.11.24-13.26.57:876][248]LogModuleManager: Shutting down and abandoning module ViewportSnapping (207)
+[2016.11.24-13.26.57:876][248]LogModuleManager: Shutting down and abandoning module ViewportInteraction (206)
+[2016.11.24-13.26.57:876][248]LogModuleManager: Shutting down and abandoning module LogVisualizer (205)
+[2016.11.24-13.26.57:876][248]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (204)
+[2016.11.24-13.26.57:876][248]LogModuleManager: Shutting down and abandoning module IntroTutorials (203)
+[2016.11.24-13.26.57:877][248]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (202)
+[2016.11.24-13.26.57:877][248]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (201)
+[2016.11.24-13.26.57:877][248]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (200)
+[2016.11.24-13.26.57:877][248]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (199)
+[2016.11.24-13.26.58:413][248]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (198)
+[2016.11.24-13.26.58:413][248]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (197)
+[2016.11.24-13.26.58:413][248]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (196)
+[2016.11.24-13.26.58:413][248]LogModuleManager: Shutting down and abandoning module InputBindingEditor (195)
+[2016.11.24-13.26.58:413][248]LogModuleManager: Shutting down and abandoning module NiagaraEditor (194)
+[2016.11.24-13.26.58:413][248]LogModuleManager: Shutting down and abandoning module MergeActors (193)
+[2016.11.24-13.26.58:414][248]LogModuleManager: Shutting down and abandoning module SizeMap (192)
+[2016.11.24-13.26.58:414][248]LogModuleManager: Shutting down and abandoning module TreeMap (191)
+[2016.11.24-13.26.58:414][248]LogModuleManager: Shutting down and abandoning module ReferenceViewer (190)
+[2016.11.24-13.26.58:414][248]LogModuleManager: Shutting down and abandoning module LocalizationService (189)
+[2016.11.24-13.26.58:414][248]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (188)
+[2016.11.24-13.26.58:414][248]LogModuleManager: Shutting down and abandoning module HardwareTargeting (187)
+[2016.11.24-13.26.58:414][248]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (186)
+[2016.11.24-13.26.58:414][248]LogModuleManager: Shutting down and abandoning module UndoHistory (185)
+[2016.11.24-13.26.58:414][248]LogModuleManager: Shutting down and abandoning module UserFeedback (184)
+[2016.11.24-13.26.58:414][248]LogModuleManager: Shutting down and abandoning module XmlParser (183)
+[2016.11.24-13.26.58:414][248]LogModuleManager: Shutting down and abandoning module Blutility (182)
+[2016.11.24-13.26.58:414][248]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (181)
+[2016.11.24-13.26.58:414][248]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (180)
+[2016.11.24-13.26.58:414][248]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (179)
+[2016.11.24-13.26.58:414][248]LogModuleManager: Shutting down and abandoning module SettingsEditor (178)
+[2016.11.24-13.26.58:414][248]LogModuleManager: Shutting down and abandoning module ProjectLauncher (177)
+[2016.11.24-13.26.58:414][248]LogModuleManager: Shutting down and abandoning module SessionFrontend (176)
+[2016.11.24-13.26.58:414][248]LogModuleManager: Shutting down and abandoning module ProfilerClient (175)
+[2016.11.24-13.26.58:414][248]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (174)
+[2016.11.24-13.26.58:414][248]LogModuleManager: Shutting down and abandoning module DeviceManager (173)
+[2016.11.24-13.26.58:456][248]LogModuleManager: Shutting down and abandoning module AutomationController (172)
+[2016.11.24-13.26.58:456][248]LogModuleManager: Shutting down and abandoning module AutomationWindow (171)
+[2016.11.24-13.26.58:456][248]LogModuleManager: Shutting down and abandoning module Layers (170)
+[2016.11.24-13.26.58:456][248]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (169)
+[2016.11.24-13.26.58:456][248]LogModuleManager: Shutting down and abandoning module DetailCustomizations (168)
+[2016.11.24-13.26.58:456][248]LogModuleManager: Shutting down and abandoning module PackagesDialog (167)
+[2016.11.24-13.26.58:456][248]LogModuleManager: Shutting down and abandoning module AnimGraph (166)
+[2016.11.24-13.26.58:456][248]LogModuleManager: Shutting down and abandoning module Persona (165)
+[2016.11.24-13.26.58:456][248]LogModuleManager: Shutting down and abandoning module Kismet (164)
+[2016.11.24-13.26.58:457][248]LogModuleManager: Shutting down and abandoning module GraphEditor (163)
+[2016.11.24-13.26.58:458][248]LogModuleManager: Shutting down and abandoning module ClassViewer (162)
+[2016.11.24-13.26.58:458][248]LogModuleManager: Shutting down and abandoning module Toolbox (161)
+[2016.11.24-13.26.58:458][248]LogModuleManager: Shutting down and abandoning module ModuleUI (160)
+[2016.11.24-13.26.58:458][248]LogModuleManager: Shutting down and abandoning module MovieSceneTools (159)
+[2016.11.24-13.26.58:458][248]LogModuleManager: Shutting down and abandoning module OutputLog (158)
+[2016.11.24-13.26.58:458][248]LogModuleManager: Shutting down and abandoning module GammaUI (157)
+[2016.11.24-13.26.58:458][248]LogModuleManager: Shutting down and abandoning module Documentation (156)
+[2016.11.24-13.26.58:458][248]LogModuleManager: Shutting down and abandoning module Niagara (155)
+[2016.11.24-13.26.58:458][248]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (154)
+[2016.11.24-13.26.58:458][248]LogModuleManager: Shutting down and abandoning module AnalyticsET (153)
+[2016.11.24-13.26.58:458][248]LogModuleManager: Shutting down and abandoning module PortalServices (152)
+[2016.11.24-13.26.58:458][248]LogModuleManager: Shutting down and abandoning module PortalRpc (151)
+[2016.11.24-13.26.58:458][248]LogModuleManager: Shutting down and abandoning module MessagingRpc (150)
+[2016.11.24-13.26.58:458][248]LogModuleManager: Shutting down and abandoning module GameplayDebugger (149)
+[2016.11.24-13.26.58:458][248]LogModuleManager: Shutting down and abandoning module AITestSuite (148)
+[2016.11.24-13.26.58:458][248]LogModuleManager: Shutting down and abandoning module AIModule (147)
+[2016.11.24-13.26.58:458][248]LogModuleManager: Shutting down and abandoning module ProfilerService (146)
+[2016.11.24-13.26.58:602][248]LogModuleManager: Shutting down and abandoning module TaskGraph (145)
+[2016.11.24-13.26.58:602][248]LogModuleManager: Shutting down and abandoning module SlateRemote (144)
+[2016.11.24-13.26.58:602][248]LogModuleManager: Shutting down and abandoning module SteamVRController (143)
+[2016.11.24-13.26.58:602][248]LogModuleManager: Shutting down and abandoning module SteamVR (142)
+[2016.11.24-13.26.58:602][248]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (141)
+[2016.11.24-13.26.58:602][248]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (140)
+[2016.11.24-13.26.58:602][248]LogModuleManager: Shutting down and abandoning module OculusLibrary (139)
+[2016.11.24-13.26.58:602][248]LogModuleManager: Shutting down and abandoning module OculusInput (138)
+[2016.11.24-13.26.58:602][248]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (137)
+[2016.11.24-13.26.58:602][248]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (136)
+[2016.11.24-13.26.58:602][248]LogModuleManager: Shutting down and abandoning module CableComponent (135)
+[2016.11.24-13.26.58:602][248]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (134)
+[2016.11.24-13.26.58:602][248]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (132)
+[2016.11.24-13.26.58:602][248]LogModuleManager: Shutting down and abandoning module HTML5Networking (131)
+[2016.11.24-13.26.58:602][248]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (130)
+[2016.11.24-13.26.58:602][248]LogModuleManager: Shutting down and abandoning module GeometryCache (129)
+[2016.11.24-13.26.58:602][248]LogModuleManager: Shutting down and abandoning module AlembicLibrary (128)
+[2016.11.24-13.26.58:602][248]LogModuleManager: Shutting down and abandoning module AlembicImporter (127)
+[2016.11.24-13.26.58:602][248]LogModuleManager: Shutting down and abandoning module SuperSearch (126)
+[2016.11.24-13.26.58:603][248]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (125)
+[2016.11.24-13.26.58:603][248]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (124)
+[2016.11.24-13.26.58:603][248]LogModuleManager: Shutting down and abandoning module PluginBrowser (123)
+[2016.11.24-13.26.58:603][248]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (122)
+[2016.11.24-13.26.58:603][248]LogModuleManager: Shutting down and abandoning module EpicSurvey (121)
+[2016.11.24-13.26.58:603][248]LogModuleManager: Shutting down and abandoning module DesktopPlatform (120)
+[2016.11.24-13.26.58:603][248]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (119)
+[2016.11.24-13.26.58:603][248]LogModuleManager: Shutting down and abandoning module UObjectPlugin (118)
+[2016.11.24-13.26.58:603][248]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (117)
+[2016.11.24-13.26.58:603][248]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (116)
+[2016.11.24-13.26.58:603][248]LogModuleManager: Shutting down and abandoning module SourceControl (115)
+[2016.11.24-13.26.58:603][248]LogModuleManager: Shutting down and abandoning module GitSourceControl (114)
+[2016.11.24-13.26.58:603][248]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (113)
+[2016.11.24-13.26.58:603][248]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (112)
+[2016.11.24-13.26.58:603][248]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (111)
+[2016.11.24-13.26.58:603][248]LogModuleManager: Shutting down and abandoning module MeshPaint (110)
+[2016.11.24-13.26.58:604][248]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (109)
+[2016.11.24-13.26.58:604][248]LogModuleManager: Shutting down and abandoning module HotReload (108)
+[2016.11.24-13.26.58:605][248]LogModuleManager: Shutting down and abandoning module MainFrame (107)
+[2016.11.24-13.26.58:605][248]LogModuleManager: Shutting down and abandoning module LevelEditor (106)
+[2016.11.24-13.26.58:607][248]LogModuleManager: Shutting down and abandoning module ContentBrowser (105)
+[2016.11.24-13.26.58:609][248]LogModuleManager: Shutting down and abandoning module Paper2DEditor (104)
+[2016.11.24-13.26.58:610][248]LogModuleManager: Shutting down and abandoning module UdpMessaging (103)
+[2016.11.24-13.26.58:710][248]LogModuleManager: Shutting down and abandoning module TcpMessaging (102)
+[2016.11.24-13.26.58:811][248]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (101)
+[2016.11.24-13.26.58:811][248]LogModuleManager: Shutting down and abandoning module Paper2D (100)
+[2016.11.24-13.26.58:811][248]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (99)
+[2016.11.24-13.26.58:811][248]LogModuleManager: Shutting down and abandoning module WmfMedia (98)
+[2016.11.24-13.26.58:811][248]LogModuleManager: Shutting down and abandoning module MediaAssets (97)
+[2016.11.24-13.26.58:811][248]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (96)
+[2016.11.24-13.26.58:812][248]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (95)
+[2016.11.24-13.26.58:812][248]LogModuleManager: Shutting down and abandoning module VREditor (94)
+[2016.11.24-13.26.58:812][248]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (93)
+[2016.11.24-13.26.58:812][248]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (92)
+[2016.11.24-13.26.58:812][248]LogModuleManager: Shutting down and abandoning module FunctionalTesting (91)
+[2016.11.24-13.26.58:812][248]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (90)
+[2016.11.24-13.26.58:812][248]LogModuleManager: Shutting down and abandoning module Sequencer (89)
+[2016.11.24-13.26.58:812][248]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (88)
+[2016.11.24-13.26.58:812][248]LogModuleManager: Shutting down and abandoning module MessageLog (87)
+[2016.11.24-13.26.58:812][248]LogModuleManager: Shutting down and abandoning module AssetTools (86)
+[2016.11.24-13.26.58:812][248]LogModuleManager: Shutting down and abandoning module UMGEditor (85)
+[2016.11.24-13.26.58:813][248]LogModuleManager: Shutting down and abandoning module UMG (84)
+[2016.11.24-13.26.58:813][248]LogModuleManager: Shutting down and abandoning module SlateReflector (83)
+[2016.11.24-13.26.58:813][248]LogModuleManager: Shutting down and abandoning module Slate (82)
+[2016.11.24-13.26.58:813][248]LogModuleManager: Shutting down and abandoning module EditorStyle (81)
+[2016.11.24-13.26.58:820][248]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (80)
+[2016.11.24-13.26.58:820][248]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (79)
+[2016.11.24-13.26.58:820][248]LogModuleManager: Shutting down and abandoning module XAudio2 (78)
+[2016.11.24-13.26.58:820][248]LogModuleManager: Shutting down and abandoning module Networking (76)
+[2016.11.24-13.26.58:820][248]LogModuleManager: Shutting down and abandoning module Core (75)
+[2016.11.24-13.26.58:820][248]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (74)
+[2016.11.24-13.26.58:820][248]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2016.11.24-13.26.58:821][248]LogDirectoryWatcher: A directory notification for '../../../../../../../Users/i.lallemand/Documents/Cours/Workshop 1/RenduWorkshop/Content/' was aborted.
+[2016.11.24-13.26.58:821][248]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2016.11.24-13.26.58:822][248]LogModuleManager: Shutting down and abandoning module AssetRegistry (73)
+[2016.11.24-13.26.58:911][248]LogModuleManager: Shutting down and abandoning module KismetCompiler (72)
+[2016.11.24-13.26.58:911][248]LogModuleManager: Shutting down and abandoning module PhysXFormats (71)
+[2016.11.24-13.26.58:911][248]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (70)
+[2016.11.24-13.26.58:911][248]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (69)
+[2016.11.24-13.26.58:911][248]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (68)
+[2016.11.24-13.26.58:911][248]LogModuleManager: Shutting down and abandoning module PropertyEditor (67)
+[2016.11.24-13.26.58:911][248]LogModuleManager: Shutting down and abandoning module MeshUtilities (66)
+[2016.11.24-13.26.58:911][248]LogModuleManager: Shutting down and abandoning module DerivedDataCache (65)
+[2016.11.24-13.26.58:936][248]LogDerivedDataCache: Shutdown
+[2016.11.24-13.26.58:936][248]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (64)
+[2016.11.24-13.26.58:937][248]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (63)
+[2016.11.24-13.26.58:937][248]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (62)
+[2016.11.24-13.26.58:937][248]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (61)
+[2016.11.24-13.26.58:937][248]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (60)
+[2016.11.24-13.26.58:937][248]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (59)
+[2016.11.24-13.26.58:937][248]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (58)
+[2016.11.24-13.26.58:937][248]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (57)
+[2016.11.24-13.26.58:937][248]LogModuleManager: Shutting down and abandoning module ImageWrapper (56)
+[2016.11.24-13.26.58:937][248]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (55)
+[2016.11.24-13.26.58:937][248]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (54)
+[2016.11.24-13.26.58:937][248]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (53)
+[2016.11.24-13.26.58:937][248]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (52)
+[2016.11.24-13.26.58:937][248]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (51)
+[2016.11.24-13.26.58:937][248]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (50)
+[2016.11.24-13.26.58:937][248]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (49)
+[2016.11.24-13.26.58:937][248]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (48)
+[2016.11.24-13.26.58:937][248]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (47)
+[2016.11.24-13.26.58:937][248]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (46)
+[2016.11.24-13.26.58:937][248]LogModuleManager: Shutting down and abandoning module Messaging (45)
+[2016.11.24-13.26.58:937][248]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (44)
+[2016.11.24-13.26.58:937][248]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (43)
+[2016.11.24-13.26.58:937][248]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (42)
+[2016.11.24-13.26.58:937][248]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (41)
+[2016.11.24-13.26.58:937][248]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (40)
+[2016.11.24-13.26.58:937][248]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (39)
+[2016.11.24-13.26.58:937][248]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (38)
+[2016.11.24-13.26.58:937][248]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (37)
+[2016.11.24-13.26.58:937][248]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (36)
+[2016.11.24-13.26.58:937][248]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (35)
+[2016.11.24-13.26.58:937][248]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (34)
+[2016.11.24-13.26.58:937][248]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (33)
+[2016.11.24-13.26.58:937][248]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (32)
+[2016.11.24-13.26.58:937][248]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (31)
+[2016.11.24-13.26.58:937][248]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (30)
+[2016.11.24-13.26.58:937][248]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (29)
+[2016.11.24-13.26.58:937][248]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (28)
+[2016.11.24-13.26.58:937][248]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (27)
+[2016.11.24-13.26.58:937][248]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (26)
+[2016.11.24-13.26.58:937][248]LogModuleManager: Shutting down and abandoning module TargetPlatform (25)
+[2016.11.24-13.26.58:937][248]LogModuleManager: Shutting down and abandoning module InputCore (24)
+[2016.11.24-13.26.58:937][248]LogModuleManager: Shutting down and abandoning module Settings (23)
+[2016.11.24-13.26.58:937][248]LogModuleManager: Shutting down and abandoning module OculusRift (22)
+[2016.11.24-13.26.58:937][248]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (21)
+[2016.11.24-13.26.58:937][248]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (20)
+[2016.11.24-13.26.58:937][248]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2016.11.24-13.26.58:937][248]LogOnline:Display: Unloading online subsystem: NULL
+[2016.11.24-13.26.58:937][248]LogModuleManager: Shutting down and abandoning module SSL (17)
+[2016.11.24-13.26.58:939][248]LogModuleManager: Shutting down and abandoning module HTTP (16)
+[2016.11.24-13.26.58:939][248]LogModuleManager: Shutting down and abandoning module XMPP (15)
+[2016.11.24-13.26.58:939][248]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.11.24-13.26.58:940][248]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.11.24-13.26.58:940][248]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.11.24-13.26.58:940][248]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.11.24-13.26.58:942][248]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.11.24-13.26.58:942][248]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.11.24-13.26.58:942][248]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.11.24-13.26.58:942][248]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.11.24-13.26.58:942][248]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.11.24-13.26.58:942][248]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.11.24-13.26.58:942][248]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.11.24-13.26.58:942][248]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.11.24-13.26.58:942][248]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.11.24-13.26.58:942][248]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.11.24-13.26.58:944][248]LogExit: Exiting.
+[2016.11.24-13.26.58:961][248]Log file closed, 11/24/16 14:26:58
